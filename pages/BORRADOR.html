@@ -1,0 +1,175 @@
+ 
+ 
+            <!-- SECCION DE ORDENAR POR -->
+             <select name="filtros">
+                <option>ORDENAR POR</option>
+                <option value="destacados">DESTACADOS</option>
+                <option value="creciente">PRECIO MAS BAJO</option>
+                <option value="decreciente">PRECIO MAS ALTO</option>
+              </select>
+        <!-- TERMINA SECCION DE ORDENAR POR -->
+
+ 
+ <!-- INICIA SECCION TALLES -->
+            <div class="accordion" id="accordionTalles">
+                <div class="accordion-item">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Talle
+                    </button>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionTalles">
+                      <div class="accordion-body">
+                          <div>
+                            <label for="nro">35</label>
+                            <input type="checkbox" name="nro" id="nro35">
+                          </div>
+                          <div>
+                            <label for="nro">36</label>
+                            <input type="checkbox" name="nro" id="nro36">
+                          </div>
+                          <div>
+                            <label for="nro">37</label>
+                            <input type="checkbox" name="nro" id="nro37">
+                          </div>
+                          <div>
+                            <label for="nro">38</label>
+                            <input type="checkbox" name="nro" id="nro38">
+                          </div>
+                          <div>
+                            <label for="nro">39</label>
+                            <input type="checkbox" name="nro" id="nro39">
+                          </div>
+                          <div>
+                            <label for="nro">40</label>
+                            <input type="checkbox" name="nro" id="nro40">
+                          </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- TERMINA SECCION TALLES -->
+
+
+            <!-- SECCION COLORES -->
+            <div class="accordion" id="accordionColor">
+                <div class="accordion-item">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Color
+                    </button>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionColor">
+                        <div class="accordion-body">
+                            <div>
+                              <label for="rojo">Rojo </label>
+                              <input type="checkbox" name="rojo" id="ch-rojo">
+                            </div>            
+                            <div>
+                              <label for="negro">Negro</label>
+                              <input type="checkbox" name="negro" id="ch-negro">
+                            </div>
+                            <div>
+                              <label for="blanco">Blanco</label>
+                              <input type="checkbox" name="blanco" id="ch-blanco">
+                            </div>
+                            <div>
+                              <label for="marron">Marrón</label>
+                              <input type="checkbox" name="marron" id="ch-marron">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- TERMINA SECCION DE COLORES -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- INICIA FILTROS DEFINITIVOS DE SANDALIAS -->
+
+              <!-- INICIA FILTROS -->
+            <div class="filter">
+                <button class="btn filtrar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                  FILTRAR POR
+                </button>
+
+                <div class="offcanvas offcanvas-end text-white" tabindex="-1" id="offcanvasRight" aria-labelledby="canvasTitle">
+                  <div class="offcanvas-header">
+                    <p class="offcanvas-title" id="canvasTitle">
+                      FILTRAR POR</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <!-- INICIA CUERPO -->
+                  <div class="offcanvas-body bodyCanvas">
+                      <!-- INICIA FILTRO COLOR -->
+                      <div class="btn-group dropend">
+                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                          COLOR
+                        </button>
+                          <div class="dropdown-menu dropdown-menu-filter text-white">
+        
+                              <div>
+                                <label for="rojo">Rojo </label>
+                                <input type="checkbox" name="rojo" id="ch-rojo">
+                              </div>   
+                                      
+                              <div>
+                                <label for="negro">Negro</label>
+                                <input type="checkbox" name="negro" id="ch-negro">
+                              </div>
+        
+                              <div>
+                                <label for="blanco">Blanco</label>
+                                <input type="checkbox" name="blanco" id="ch-blanco">
+                              </div>
+        
+                              <div>
+                                <label for="marron">Marrón</label>
+                                <input type="checkbox" name="marron" id="ch-marron">
+                              </div>
+                          </div>
+                      </div>
+                        <!-- TERMINA FILTRO COLOR -->
+                        <!-- INICIA FILTRO TALLE -->
+                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                          TALLE
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-talle text-white">
+                            <div>
+                              <div>
+                                <label for="nro">35</label>
+                                <input type="checkbox" name="nro" id="nro35">
+                              </div>
+                              <div>
+                                <label for="nro">36</label>
+                                <input type="checkbox" name="nro" id="nro36">
+                              </div>
+                              <div>
+                                <label for="nro">37</label>
+                                <input type="checkbox" name="nro" id="nro37">
+                              </div>
+                              <div>
+                                <label for="nro">38</label>
+                                <input type="checkbox" name="nro" id="nro38">
+                              </div>
+                              <div>
+                                <label for="nro">39</label>
+                                <input type="checkbox" name="nro" id="nro39">
+                              </div>
+                              <div>
+                                <label for="nro">40</label>
+                                <input type="checkbox" name="nro" id="nro40">
+                              </div>
+                            </div>
+                      </div>
+                      <!-- TERMINA FILTRO TALLE -->
+                </div>
+               </div>
+           </div>

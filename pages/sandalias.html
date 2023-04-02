@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon">
+    <title>Mar's shoes - Calzados femeninos </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+    <div class="d-flex flex-row align-items-center justify-content-between container-fluid contenedor-nav">
+      <!-- INICIA OFFCANVAS -->
+      <div class="canvaShow">
+        <!-- INICIA BOTON HAMBURGUESA / OFF CANVAS-->
+        <div>
+        <a class="btn toggle-button" data-bs-toggle="offcanvas" href="#canvasFiltrosSeccion" role="button" aria-controls="canvasFiltrosSeccion">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#daff8f" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </a>
+        </div>
+        <!-- TERMINA BOTON HAMBURGUESA -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="canvasFiltrosSeccion" aria-labelledby="canvasFiltrosSeccionLabel">
+          <div class="offcanvas-header d-flex flex-row">
+            <a href="#">
+              <!-- MI CUENTA -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg>
+              <div>
+                  <p class="offcanvas-title fs-3 text-white cuenta" id="canvasFiltrosSeccionLabel">MI CUENTA</p>              
+              </div>
+            </a>      
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <hr class="text-white">
+          <!-- TERMINA MI CUENTA -->
+          <div class="offcanvas-body">
+              <!-- NEW IN -->
+            <div>
+              <div class="dropdown mt-3">
+                <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
+                  NEW IN
+                </button>
+                <ul class="dropdown-menu bg-black">
+                  <li><a class="dropdown-item text-white" href="../pages/zapatillas.html">ZAPATILLAS</a></li>
+                  <hr class="text-white">
+                  <li><a class="dropdown-item text-white" href="../pages/botas.html">BOTAS</a></li>
+                </ul>
+              </div>
+            </div>
+            <hr class="text-white">
+              <!-- INICIA TEMPORADA ANTERIOR -->
+            <div>
+              <div class="dropdown mt-3">
+                  <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
+                    TEMPORADA ANTERIOR
+                  </button>
+                  <ul class="dropdown-menu bg-black">
+                    <li><a class="dropdown-item text-white" href="../pages/sandalias.html">SANDALIAS</a></li>
+                    <hr class="text-white">
+                    <li><a class="dropdown-item text-white" href="../pages/zapatos.html">ZAPATOS</a></li>
+                  </ul>
+              </div>
+            </div>
+            <!-- TERMINA TEMPORADA ANTERIOR -->
+            <hr class="text-white">
+            <!-- INICIA OPCIONES DE CUENTA -->
+              <div class="op-cuenta">
+                <ul>
+                  <li>
+                    <a href="#">DESCUENTOS</a>
+                  </li>
+                  <li>
+                    <a href="#">MIS COMPRAS</a>
+                  </li>
+                  <li>
+                    <a href="#">MIS FAVORITOS</a>
+                  </li>
+                </ul>
+              </div> 
+                <!-- TERMINA OPCIONES DE CUENTA -->
+                <hr class="text-white">
+                <!-- INICIA NOSOTROS -->
+                <div>
+                    <div class="dropdown mt-3">
+                        <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
+                          NOSOTROS
+                        </button>
+                        <ul class="dropdown-menu bg-black">
+                          <li><a class="dropdown-item text-white" href="#">Todas las sucursales</a></li>
+                          <hr class="text-white">
+                          <li><a class="dropdown-item text-white" href="#">Términos y condiciones</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- TERMINA NOSOTROS -->
+                <hr class="text-white">
+                <!-- INICIA INFORMACIÓN -->
+                <div>
+                  <div class="dropdown mt-3">
+                      <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
+                        INFORMACIÓN
+                      </button>
+                      <ul class="dropdown-menu bg-black">
+                        <li><a class="dropdown-item text-white" href="#">Métodos de pago</a></li>
+                        <hr class="text-white">
+                        <li><a class="dropdown-item text-white" href="#">Envíos</a></li>
+                      </ul>
+                  </div>
+              </div> 
+                <!-- TERMINA INFORMACIÓN -->
+                <hr class="text-white">
+                <!-- INICIA AYUDA -->
+                <div>
+                  <div class="dropdown mt-3">
+                      <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
+                        AYUDA
+                      </button>
+                      <ul class="dropdown-menu bg-black">
+                        <li><a class="dropdown-item text-white" href="#">Botón de arrepentimiento</a></li>
+                        <hr class="text-white">
+                        <li><a class="dropdown-item text-white" href="#">Preguntas frecuentes</a></li>
+                      </ul>
+                  </div>
+              </div> 
+                <!-- TERMINA AYUDA -->
+                <hr class="text-white">
+                <!-- INICIA CONTACTANOS -->
+                <div>
+                  <p class="fs-5 text-white">CONTACTANOS</p>
+                  <!-- INSTAGRAM -->
+                  <a href="https://www.instagram.com/" target="_blank">
+                    <img src="https://img.icons8.com/fluency/48/null/instagram-new.png"/>
+                  </a>
+                  <a href="https://www.facebook.com/"target="_blank">
+                    <img src="https://img.icons8.com/fluency/48/null/facebook.png"/>
+                  </a>
+                  <!-- WHATSAPP -->
+                  <a href="https://web.whatsapp.com/"target="_blank">
+                    <img src="https://img.icons8.com/color/48/null/whatsapp--v1.png"/> 
+                  </a>       
+                </div>
+                <!-- TERMINA CONTACTANOS -->
+                  
+          </div>
+          <!-- TERMINA BODY OFFCANVAS -->
+        </div>
+      </div>
+      <!-- TERMINA OFFCANVAS -->
+      <div class="paginas-show order-lg-2">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/sandalias.html">SANDALIAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/zapatos.html">ZAPATOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/zapatillas.html">ZAPATILLAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/botas.html">BOTAS</a>
+          </li>
+        </ul>
+      </div>
+        <!-- INICIA LOGO -->
+        <div class="order-lg-1 navbar-logo">
+          <a href="../index.html">
+            <img src="../img/favicon.jpg" alt="logo de Mar's shoes">
+          </a>
+      </div>
+      <!-- TERMINA LOGO -->
+        <div class="order-lg-3 acciones">
+          <div class="navbar-collapse nav-actions">
+            <button class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+            </button>
+            <button class="shop">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+                  </svg>
+            <button class="profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                  </svg>
+            </button>
+          </div>
+          <!-- TERMINA BOTONERA DE ACCIONES DE LA NAV -->          
+      </div>
+    </div>
+</nav>
+<!-- INICIA NAV CON BREADCRUMB -->
+      <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
+          <div class="container-fluid ps-5 breadcrumb-container">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="../index.html">Inicio</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Sandalias</li>
+              </ol>
+          </div>          
+      </nav>
+<!-- TERMINA NAV CON BREADCRUMB -->
+<main>
+
+   <!-- INICIA DIV DE ORDEN PARA MOBILE Y TABLET -->
+  <div class="org d-flex justify-content-center">
+    <!-- INICIA BOTON ORDENAR POR -->
+      <div class="orden">
+        <div class="btn-group">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+            ORDENAR POR
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">DESTACADOS</a></li>
+            <li><a class="dropdown-item" href="#">MAS VISITADOS</a></li>
+            <li><a class="dropdown-item" href="#">PRECIO MAS BAJO</a></li>
+            <li><a class="dropdown-item" href="#">PRECIO MAS ALTO</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- INICIA FILTROS -->
+      <!-- INICIA FITLRAR POR -->
+      <div class="filter">
+        <button class="btn filtrar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          FILTRAR POR
+        </button>
+
+        <div class="offcanvas offcanvas-end text-white" tabindex="-1" id="offcanvasRight" aria-labelledby="canvasTitle">
+          <div class="offcanvas-header">
+            <p class="offcanvas-title" id="canvasTitle">
+              FILTRAR POR</p>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <hr class="text-white">
+          <!-- INICIA CUERPO -->
+          <div class="offcanvas-body bodyCanvas">
+              <!-- INICIA FILTRO COLOR -->
+              <div>
+                <div class="dropdown mt-3">
+                  <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
+                    COLORES
+                  </button>
+                  <ul class="dropdown-menu bg-black text-white px-3 justify-content-center">
+                    <li>
+                      <label class="text-white" for="rojo">Rojo </label>
+                      <input type="checkbox" name="rojo" id="ch-rojo">
+                    </li>
+                    <li>
+                      <label for="negro">Negro</label>
+                      <input type="checkbox" name="negro" id="ch-negro">
+                    </li>
+                    <li>
+                      <label for="blanco">Blanco</label>
+                      <input type="checkbox" name="blanco" id="ch-blanco">
+                    </li>
+                    <li>
+                      <label for="marron">Marrón</label>
+                      <input type="checkbox" name="marron" id="ch-marron">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+                <!-- TERMINA FILTRO COLOR -->
+                <hr>
+                <!-- INICIA FILTRO TALLE -->
+                <div>
+                  <div class="dropdown mt-3 align-items-center">
+                    <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
+                      TALLES
+                    </button>
+                    <ul class="dropdown-menu bg-black text-white px-3">
+                      <li>
+                        <label for="nro">35</label>
+                        <input type="checkbox" name="nro" id="nro35">
+                      </li>
+                      <li>
+                        <label for="nro">36</label>
+                        <input type="checkbox" name="nro" id="nro36">
+                      </li>
+                      <li>
+                        <label for="nro">37</label>
+                        <input type="checkbox" name="nro" id="nro37">
+                      </li>
+                      <li>
+                        <label for="nro">38</label>
+                        <input type="checkbox" name="nro" id="nro38">
+                      </li>
+                      <li>
+                        <label for="nro">39</label>
+                        <input type="checkbox" name="nro" id="nro39">
+                      </li>
+                      <li>
+                        <label for="nro">40</label>
+                        <input type="checkbox" name="nro" id="nro40">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- TERMINA FILTRO TALLE -->
+                <hr>
+                <!-- BOTONES FINALES APLICAR Y LIMPIAR FILTROS -->
+                <div class="botonesFiltros">
+                  <button>
+                    APLICAR
+                  </button>
+                  <button>
+                    LIMPIAR FILTROS
+                  </button>
+                </div>
+           </div>
+        </div>
+    </div>
+</div>
+  <!-- TERMINA DIV DE ORDEN PARA MOBILE Y TABLET -->
+  <!-- INICIA DIV DE FILTROS PARA DESKTOP -->
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col-lg-2 colDesktop">
+      <div>
+        <select name="filtros text-white">
+          <option>ORDENAR POR</option>
+          <option value="destacados">DESTACADOS</option>
+          <option value="creciente">CRECIENTE</option>
+          <option value="decreciente">DECRECIENTE</option>
+        </select>
+      </div>
+      <!-- SECCION TALLES-->
+      <hr>
+      <div class="accordion" id="accordionTalles">
+        <div class="accordion-item">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Talle
+            </button>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionTalles">
+            <div class="accordion-body">
+              <div>
+                <label for="nro">35</label>
+                <input type="checkbox" name="nro" id="nro35">
+              </div>
+              <div>
+                <label for="nro">36</label>
+                <input type="checkbox" name="nro" id="nro36">
+              </div>
+              <div>
+                <label for="nro">37</label>
+                <input type="checkbox" name="nro" id="nro37">
+              </div>
+              <div>
+                <label for="nro">38</label>
+                <input type="checkbox" name="nro" id="nro38">
+              </div>
+              <div>
+                <label for="nro">39</label>
+                <input type="checkbox" name="nro" id="nro39">
+              </div>
+              <div>
+                <label for="nro">40</label>
+                <input type="checkbox" name="nro" id="nro40">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECCION COLORES-->
+    <hr>
+    <div class="accordion" id="accordionColor">
+      <div class="accordion-item">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Color
+          </button>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionColor">
+          <div class="accordion-body">
+            <div>
+              <label for="rojo">Rojo </label>
+              <input type="checkbox" name="rojo" id="ch-rojo">
+            </div>            
+            <div>
+              <label for="negro">Negro</label>
+              <input type="checkbox" name="negro" id="ch-negro">
+            </div>
+            <div>
+              <label for="blanco">Blanco</label>
+              <input type="checkbox" name="blanco" id="ch-blanco">
+            </div>
+            <div>
+              <label for="marron">Marrón</label>
+              <input type="checkbox" name="marron" id="ch-marron">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- TERMINA class="colDesktop" FILTROS PARA DESKTOP -->
+    <!-- col-4 col-md-3 col-lg-2 -->
+    <div class="col-6 col-md-4.5 col-lg-3">
+      <div class="articulos">
+        <article class="art1 mb-5">
+          <img src="../img/productos/sandalias/agua.jpg" class="img-fluid" alt="sandalias playeras color marrón">
+          <div>
+            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button class="text-white">Ver producto</button>
+          </div>
+        </article>
+        
+        <article class="art2 mb-5">
+          <img src="../img/productos/sandalias/marrones.jpg" class="img-fluid" alt="sandalias marrones con hebilla">
+          <div>
+            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button class="text-white">Ver producto</button>
+          </div>
+        </article>
+
+        <article class="art3 mb-5">
+          <img src="../img/productos/sandalias/blancas.jpg" class="img-fluid" alt="sandalias blancas chatitas sin tacos">
+          <div>
+            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button class="text-white">Ver producto</button>
+          </div>
+        </article>
+
+        <article class="art4 mb-5">
+          <img src="../img/productos/sandalias/chatitas.jpg" class="img-fluid" alt="sandalias playeras marron y rojo sin tacos">
+          <div>
+            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button class="text-white">Ver producto</button>
+          </div>
+        </article>
+      </div>
+    </div>
+    <!-- TERMINA COLUMNA 1 -->
+    <!-- INICIA COLUMNA 2 -->
+    <div class="col colShow1 col-6 col-md-4.5 col-lg-3">
+        <div class="articulos">
+          <article class="art5 mb-5">
+            <img src="../img/productos/sandalias/cremita_plataforma.jpg" class="img-fluid" alt="sandalias color beige con plataforma">
+            <div>
+              <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <button class="text-white">Ver producto</button>
+            </div>
+          </article>
+
+          <article class="art6 mb-5">
+            <img src="../img/productos/sandalias/negra.jpg" class="img-fluid" alt="sandalias color negro con tacos finos y altos">
+            <div>
+              <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <button class="text-white">Ver producto</button>
+            </div>
+          </article>
+
+          <article class="art7 mb-5">
+            <img src="../img/productos/sandalias/rojo.jpg" class="img-fluid" alt="sandalias color rojo con tacos altos">
+            <div>
+              <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <button class="text-white">Ver producto</button>
+            </div>
+          </article>
+
+          <article class="art8 mb-5">
+            <img src="../img/productos/sandalias/tacos.jpg" class="img-fluid" alt="sandalias color blanco con tacos altos y hebilla">
+            <div>
+              <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <button class="text-white">Ver producto</button>
+            </div>
+          </article>
+
+        </div>
+    </div>
+    <div class="col colShow2 col-md-4.5 col-lg-3">
+      <div class="articulos">
+
+        <article class="art9 mb-5">
+          <img src="../img/productos/sandalias/comfy-white.jpg" class="img-fluid" alt="sandalias blancas comfy">
+          <div>
+            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button class="text-white">Ver producto</button>
+          </div>
+        </article>
+
+        <article class="art10 mb-5">
+          <img src="../img/productos/sandalias/amblack.jpg" class="img-fluid" alt="sandalias amarillas y negras">
+          <div>
+            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button class="text-white">Ver producto</button>
+          </div>
+        </article>
+
+        <article class="art11 mb-5">
+          <img src="../img/productos/sandalias/francis.jpg" class="img-fluid" alt="sandalias vintage color marron">
+          <div>
+            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button class="text-white">Ver producto</button>
+          </div>
+        </article>
+
+        <article class="art12 mb-5">
+          <img src="../img/productos/sandalias/verde.jpg" class="img-fluid" alt="sandalias verde con tacos">
+          <div>
+            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button class="text-white">Ver producto</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+  <!-- INICIA FOOTER -->
+  <footer>
+    <!-- INICIA FOOTER MOBILE Y TABLET -->
+    <div class="footerMobileTablet">
+          <!-- INICIA NEWSLETTER -->
+          <section class="newsletter text-black">
+            <h3 class="text-center">NEWSLETTER</h3>
+            <p class="text-center">SUSCRIBITE PARA RECIBIR LAS ULTIMAS NOVEDADES Y DESCUENTOS EXCLUSIVOS</p>
+            <div class="f-mail text-center">
+              <input type="text" class="form-control">
+              <button>Aceptar</button>
+              <button>Borrar todo</button>
+            </div>
+          </section>
+          <!-- FINALIZA NEWSLETTER -->
+          <!-- INICIA OPCIONES -->
+          <div class="accordion accordion-flush focus-ring mt-4" id="accordionFooter">
+            <div class="accordion-box">
+              <p class="accordion-title">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-footer1">
+                  NOSOTROS
+                </button>
+              </p>
+              <div id="collapse-footer1" class="accordion-collapse collapse" data-bs-parent="#accordionFooter">
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      <a href="#">Todas las sucursales</a>
+                    </li>
+                    <li>
+                      <a href="#">Términos y condiciones</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-box">
+              <p class="accordion-title">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-footer2">
+                  INFORMACION
+                </button>
+              </p>
+              <div id="collapse-footer2" class="accordion-collapse collapse" data-bs-parent="#accordionFooter">
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      <a href="#">Medios de pago</a>
+                    </li>
+                    <li>
+                      <a href="#">Envíos</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-box">
+              <p class="accordion-title">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+                  AYUDA
+                </button>
+              </p>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFooter">
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      <a href="#">Botón de arrepentimiento</a>
+                    </li>
+                    <li>
+                      <a href="#">Preguntas frecuentes</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- FINALIZA AYUDA -->
+            <div class="accordion-box">
+              <p class="accordion-title">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-footer4">
+                  SEGUINOS
+                </button>
+              </p>
+              <div id="collapse-footer4" class="accordion-collapse collapse" data-bs-parent="#accordionFooter">
+                <div class="accordion-body">
+                  <!-- INSTAGRAM -->
+                  <a href="https://www.instagram.com/"target="_blank">
+                    <img src="https://img.icons8.com/fluency/48/null/instagram-new.png"/>
+                  <!-- FACEBOOK -->
+                  <a href="https://www.facebook.com/"target="_blank">
+                    <img src="https://img.icons8.com/fluency/48/null/facebook.png"/>
+                  </a>
+                  <!-- WHATSAPP -->
+                  <a href="https://web.whatsapp.com/"target="_blank">
+                    <img src="https://img.icons8.com/color/48/null/whatsapp--v1.png"/> 
+                  </a>
+                </div>
+              </div>
+            </div>
+          <!-- FINALIZA OPCIONES -->
+        </div>
+      </div>
+  
+    <!-- INICIA FOOTER DESKTOP -->
+    <div class="contenedor-footer">
+      <div class="box-footer">
+          <h3>NOSOTROS</h3>
+          <a href="#">Sucursales</a>
+          <a href="#">Términos y condiciones</a>
+      </div>
+      <div class="box-footer">
+          <h3>INFORMACIÓN</h3>
+          <a href="#">Medios de pago</a>
+          <a href="#">Envios</a>
+      </div>
+      <div class="box-footer">
+          <h3>AYUDA</h3>
+          <a href="#">Botón de arrepentimiento</a>
+          <a href="#">Preguntas frecuentes</a>
+      </div>
+      <div class="box-footer-redes">
+          <h3>SEGUINOS</h3>
+          <!-- INSTAGRAM -->
+          <a href="https://instagram.com">
+            <img src="https://img.icons8.com/fluency/48/null/instagram-new.png"/>
+          </a>
+          <!-- FACEBOOK -->
+          <a href="https://es-la.facebook.com/">
+            <img src="https://img.icons8.com/fluency/48/null/facebook.png"/>
+          </a>
+          <!-- WHATSAPP -->
+          <a href="https://web.whatsapp.com/">
+            <img src="https://img.icons8.com/color/48/null/whatsapp--v1.png"/> 
+          </a>
+      </div>   
+      <div class="box-footer box-footer-mail">
+              <h3>RECIBE TODAS LAS NOVEDADES</h3>
+              <input type="text" name="E-mail" id="">
+          <a href="">
+              <button>Aceptar</button>
+              <button>Cancelar</button>
+          </a>
+      </div>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+</script>
+</body>
+</html>
