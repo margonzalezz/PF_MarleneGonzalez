@@ -1,0 +1,115 @@
+
+ARTICULOS SANDALIAS
+
+art1: sandalias playeras color marrón
+art2: sandalias marrones con hebilla
+art3: sandalias blancas chatitas sin tacos
+art4: sandalias playeras marron y rojo sin tacos
+
+art5: sandalias color beige con plataforma
+art6:sandalias color negro con tacos finos y altos
+art7:sandalias color rojo con tacos altos
+art8:sandalias color blanco con tacos altos y hebilla
+
+art9:sandalias blancas comfy
+art10:sandalias amarillas y negras
+art11:sandalias vintage color marron
+art12:sandalias verde con tacos
+
+ARTICULOS ZAPATOS
+art13:
+art14:
+art15:
+art16:
+
+art17:
+art18:
+art19:
+art20
+
+art21:
+art22:
+art23:
+art24:
+
+art25:
+art26:
+art27:
+art28:
+
+
+ARTICULOS ZAPATILLAS
+
+art29:
+art30:
+art31:
+art32:
+
+art33:
+art34:
+art35:
+art36:
+
+art37:
+art38:
+art39:
+art40:
+
+art41:
+art42:
+art43:
+art44
+
+
+ARTICULOS BOTAS
+
+art45:
+art46:
+art47:
+art48:
+
+art49:
+art50:
+art51:
+art52:
+
+art53:
+art54:
+art55:
+art56:
+
+art57:
+art58:
+art59:
+art60:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
