@@ -55,18 +55,18 @@ art36:zapatillas color verde
 
 ARTICULOS BOTAS
 
-art37:
-art38:
-art39:
-art40:
+art37:botas negras plataforma baja
+art38:botas caña alta color chocolate
+art39:botas color hueso con cierre
+art40:botas color ladrillo con taco medio
 
-art41:
-art42:
-art43:
-art44
+art41:botas color mostaza con taco medio y cierre al costado
+art42:botas negras con plataforma
+art43:botas tipo texanas color negro con cierre
+art44:borcegos negros con plataforma y elastico
 
 
-art45:
-art46:
-art47:
-art48:
+art45:borcego color beige con cordondes negros
+art46:borcego color beige con cordondes marrones
+art47:borcego marron con elastico y plataforma
+art48:botas negras con cierre y piel
