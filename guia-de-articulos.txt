@@ -38,20 +38,20 @@ art24:zapatos negros con taco alto
 
 ARTICULOS ZAPATILLAS
 
-art25:
-art26:
-art27:
-art28:
+art25:zapatillas de varios colores con plataforma
+art26:zapatillas basicas color amarillo
+art27:zapatillas deportivas casual color negro
+art28:zapatillas casual blancas
 
-art29:
-art30:
-art31:
-art32:
+art29:zapatillas rosas con plataforma comfy
+art30:zapatillas de colores tipo air force
+art31:zapatillas comfy color beige
+art32:zapatillas deportivas color negro
 
-art33:
-art34:
-art35:
-art36:
+art33:zapatillas deportivas color gris
+art34:zapatillas comfy blancas
+art35:zapatillas color marron
+art36:zapatillas color verde
 
 ARTICULOS BOTAS
 
