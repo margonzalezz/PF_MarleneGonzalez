@@ -16,29 +16,32 @@ art10:sandalias amarillas y negras
 art11:sandalias vintage color marron
 art12:sandalias verde con tacos
 
+
 ARTICULOS ZAPATOS
-art13:
-art14:
-art15:
-art16:
 
-art17:
-art18:
-art19:
-art20
+art13:zapatos escamas color bordo
+art14:zapatos con tacos piel de serpiente
+art15:zapatos con tacos plateados
+art16:zapatos vintage de gamuza
 
-art21:
-art22:
-art23:
-art24:
+art17:zapatos tipo mocasin color blanco
+art18:zapatos mocasines negros de charol
+art19:mocasines color beige de charol
+art20:zapatos con tacos altos de charol color rosa
+
+art21:zapatos de charol color celeste
+art22:zapatos color amarillo / mostaza
+art23:zapatos negros de gamuza con brillos
+art24:zapatos negros con taco alto
+
+
+
+ARTICULOS ZAPATILLAS
 
 art25:
 art26:
 art27:
 art28:
-
-
-ARTICULOS ZAPATILLAS
 
 art29:
 art30:
@@ -49,6 +52,8 @@ art33:
 art34:
 art35:
 art36:
+
+ARTICULOS BOTAS
 
 art37:
 art38:
@@ -61,55 +66,7 @@ art43:
 art44
 
 
-ARTICULOS BOTAS
-
 art45:
 art46:
 art47:
 art48:
-
-art49:
-art50:
-art51:
-art52:
-
-art53:
-art54:
-art55:
-art56:
-
-art57:
-art58:
-art59:
-art60:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
