@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300&display=swap');
+
+*{
+  font-family: 'Alumni Sans', sans-serif;
+}
+
+/* NAV MOBILE */
+nav{
+  background-color:#c0a4fb;
+}
+
+.offcanvas{
+  background-color: #484848;
+}
+  .offcanvas-header{
+    align-items: center;
+  }
+    .offcanvas-header .btn-close{
+      background-color: white;
+    }
+      .offcanvas-header a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+      }
+        .offcanvas-header a .cuenta{
+          margin-left: 20px;
+        }
+
+    .op-cuenta ul li{
+      list-style: none;
+    }
+      .op-cuenta ul li a{
+        text-decoration: none;
+        color: white;
+      }
+
+
+/* BOTONERA DE ACCIONES DE LA NAV MOBILE*/
+.nav-actions button{
+  display: inline-block;
+  background-color:#c0a4fb;
+  color: #DAFF8E;
+  border: none;
+}
+
+/* ARTICULOS DEL INDEX */
+main article{
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+  main article button{
+    background-color: rgb(87, 87, 87);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+
+/* OCULTAR MENU DE PAGINAS */
+  .paginas-show{
+    display: none;
+  }
+  /* SECCION DE ANUNCIO */
+.seccion-anuncio{
+  background-color: #c0a4fb;
+}
+  .seccion-anuncio a{
+    text-decoration: none;
+    color: black;
+  }
+  /* INICIA FOOTER */
+
+.contenedor-footer{
+  display: none;
+}
+
+  /* NEWSLETTER */
+  .newsletter{
+    background-color: #c0a4fb;
+  }
+    .newsletter button{
+      background-color: rgb(71, 71, 71);      
+      margin: 15px 5px;
+      padding: 5px 10px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+    }
+
+/* OPCIONES DE FOOTER */
+.accordion-flush{
+  text-align: center;
+}
+  .accordion-flush a{
+    color: black;
+    text-decoration: none;
+  }
+    #accordionFooter ul li{
+      list-style: none;
+    }
+      /* TITULO DEL BOX */
+      .accordion-button{
+        text-align: center;
+        background-color: #c0a4fb;
+        font-weight: bold;
+      }
+.accordion-body{
+  padding: 2px;
+}
+  /* SOCIAL MEDIA */
+  .accordion-body a svg{
+    justify-content: center;
+    margin-left: 40px;
+    padding-bottom: 15px;
+  }
+
+
+/* INICIA PAGINAS GENERAL */
+
+/* BREADCRUMB PAGINAS */
+.breadcrumb-container{
+  font-size: 1.5rem;
+}
+nav div ol li a{
+  text-decoration: none;
+  color: #DAFF8E;
+}
+/* TERMINA BREADCRUMBS */
+
+/* INICIA PESTAÑA DE FILTROS */
+/* GENERAL */
+
+.colDesktop{
+  display: none;
+}
+
+.org{
+  margin-bottom: 20px;
+}
+
+.orden{
+  width: 50%;
+  text-align: center;
+  border: solid;
+  border-color: #b0b0b0;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+}
+  .orden button{
+    font-weight: bold;
+  }
+
+/* TALLES */
+#accordionTalles .accordion-body{
+  background-color: #d6d6d6;
+}
+
+#accordionColor .accordion-body{
+  background-color: #d6d6d6;
+}
+
+/* FILTRAR POR */
+.filter{
+  width: 50%;
+  border: solid;
+  border-color: #b0b0b0;
+  border-width: 1px;
+  text-align: center;
+  
+}
+  .filter button{
+    font-weight: bold;
+  }
+
+/* FILTRAR POR: CANVAS BODY */
+.filter-body{
+  background-color: #a1a1a1;
+}
+  .filter-body button{
+    justify-content: center;
+    background-color: #a1a1d1;
+    border: none;
+    justify-content: left;
+    height: 25%;
+  }
+
+/* APLICAR / LIMPIAR FILTROS */
+.botonesFiltros button{
+  background-color: #DAFF8E;
+  border: none;
+  border-radius: 3px;
+  margin-left: 15px;
+}
+
+/* GRID DE PRODUCTOS */
+
+.colShow2{
+  display: none;
+}
+.articulos article{
+  border: solid;
+  border-color: #c0c0c0;
+  border-width: 1px;
+  border-radius: 7px;
+}
+/* TERMINA GRID PRODUCTOS */
+
+/* TERMINA PAGINAS GENERAL */
+
+
+
+
+/* INICIA SANDALIAS */
+
+
+/* TERMINA SANDALIAS */
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY TABLET */
+
+@media (width > 426px) {
+  /* INDEX */
+
+  /* NAV */
+.contenedor-nav .navbar-logo img{
+  object-fit: cover;
+  width: 110px;
+}
+
+.acciones .nav-actions{
+  align-items: center;
+  justify-content: center;
+}
+  .acciones .nav-actions .fav svg{
+    width: 23px;
+    height: 23px;
+  }
+    .acciones .nav-actions .shop svg{
+      width: 23px;
+      height: 23px;
+    }
+    .acciones .nav-actions .profile svg{
+      width: 30px;
+      height: 30px;
+    }
+
+
+/* DROPDOWN DE ORDENAR POR */
+
+
+/* PRODUCTOS HOME */
+.row .productos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* GRID DE PRODUCTOS */
+.colShow1{
+  display: flex;
+}
+.colShow2{
+  display: none;
+}
+
+/* TERMINA GRID PRODUCTOS */
+
+.contenedor-footer{
+  display: none;
+}
+}
+
+
+/* MEDIA DESKTOP */
+
+@media (width > 769px){
+    /* INDEX */
+.row .productos{
+  justify-content: space-around;
+}
+
+/* MENU DE PAGINAS PARA DESKTOP */
+.paginas-show{
+  display: flex;
+  color: #DAFF8E;
+}
+  .paginas-show .navbar-nav{
+    flex-direction: row;
+  }
+  .paginas-show .navbar-nav .nav-item{
+    font-size: 2rem;
+    margin-left: 20px;
+  }
+
+  /* OCULTAR CANVAS PARA DESKTOP */
+.canvaShow{
+  display: none;
+}
+
+/* BOTONERA DE ACCIONES DE LA NAV */
+.acciones .nav-actions{
+  align-items: center;
+  justify-content: center;
+}
+  .acciones .nav-actions .fav svg{
+    width: 23px;
+    height: 23px;
+  }
+    .acciones .nav-actions .shop svg{
+      width: 23px;
+      height: 23px;
+    }
+    .acciones .nav-actions .profile svg{
+      width: 30px;
+      height: 30px;
+    }
+
+/* OCULTAR NAV DE FILTROS PARA DESKTOP */
+.org .orden{
+  display: none;
+}
+.filter{
+  display: none;
+}
+
+/* FILTROS SIDEBAR */
+.container .row select{
+  background-color: #c0a4fb;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  color: white;
+  font-size: 1.3rem;
+  padding: 5px 15px;
+}
+.colDesktop{
+  display: list-item;
+  list-style: none;
+}
+
+.org{
+  margin-bottom: 20px;
+}
+
+/* GRID DE PRODUCTOS */
+.colShow1{
+  display: flex;
+}
+.colShow2{
+  display: flex;
+}
+/* TERMINA GRID PRODUCTOS */
+
+.row .productos article{
+  display: flex;
+  flex-wrap: wrap;
+  width: 220px;
+  height: 350px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+/* SECCION DE ANUNCIO DE ENVIOS / DESCUENTOS / CUOTAS */
+.seccion-anuncio{
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .contenedor-descuentos{
+    padding-top: 10px;
+    margin-left: 30px;
+  }      
+  .contenedor-cuotas{
+    margin-left: 30px;
+    padding-top: 10px;
+  }
+
+  /* FOOTER PARA MOBILE OCULTO */
+.footerMobileTablet{
+  display: none;
+}
+
+.contenedor-footer{
+  display: flex;
+}
+
+/* FOOTER PARA DESKTOP */
+footer{
+  background-color: #aa92df;
+  width: 100%;
+}
+  .contenedor-footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+    .box-footer{
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+      margin-left: 20px;
+    }
+        h3{
+          font-weight: bold;
+          font-size: 1.6rem;
+        }
+        footer div a{
+          color: black;
+          text-decoration: none;
+          font-size: 1.2rem;
+        }
+
+.box-footer-redes{
+  padding-top: 50px;
+}
+.box-footer-mail input{
+  border: none;
+  border-radius: 5px;
+}
+  .box-footer-mail button{
+    background-color:#DAFF8E;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+    /* TERMINA FOOTER */
+}
+
