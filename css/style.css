@@ -70,7 +70,8 @@ main article{
     text-decoration: none;
     color: black;
   }
-  /* INICIA FOOTER */
+  
+/* INICIA FOOTER */
 
 .contenedor-footer{
   display: none;
@@ -421,4 +422,3 @@ footer{
   }
     /* TERMINA FOOTER */
 }
-
