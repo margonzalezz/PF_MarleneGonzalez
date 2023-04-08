@@ -10,7 +10,8 @@ nav{
 }
 
 .offcanvas{
-  background-color: #484848;
+  background: rgb(192,164,251);
+  background: linear-gradient(180deg, #c0a4fbe2 35%, #ffbaff 100%);
 }
   .offcanvas-header{
     align-items: center;
@@ -52,7 +53,7 @@ main article{
 }
 
   main article button{
-    background-color: rgb(87, 87, 87);
+    background-color: #575757;
     border: none;
     border-radius: 5px;
     padding: 5px 15px;
@@ -82,7 +83,7 @@ main article{
     background-color: #c0a4fb;
   }
     .newsletter button{
-      background-color: rgb(71, 71, 71);      
+      background-color: #575757;      
       margin: 15px 5px;
       padding: 5px 10px;
       color: white;
@@ -153,6 +154,10 @@ nav div ol li a{
   .orden button{
     font-weight: bold;
   }
+  .dropdown-menu{
+    background: rgb(192,164,251);
+    background: linear-gradient(180deg, #c0a4fb 48%, #ffbaff 82%);
+  }
 
 /* TALLES */
 #accordionTalles .accordion-body{
@@ -175,22 +180,12 @@ nav div ol li a{
   .filter button{
     font-weight: bold;
   }
-
-/* FILTRAR POR: CANVAS BODY */
-.filter-body{
-  background-color: #a1a1a1;
-}
-  .filter-body button{
-    justify-content: center;
-    background-color: #a1a1d1;
-    border: none;
-    justify-content: left;
-    height: 25%;
-  }
-
+ 
 /* APLICAR / LIMPIAR FILTROS */
 .botonesFiltros button{
-  background-color: #DAFF8E;
+  background: rgb(140,99,226);
+  background: linear-gradient(180deg, #8c63e2 35%, #7c67aa 100%);
+  color: white;
   border: none;
   border-radius: 3px;
   margin-left: 15px;
@@ -203,7 +198,7 @@ nav div ol li a{
 }
 .articulos article{
   border: solid;
-  border-color: #c0c0c0;
+  border-color: #b0b0b0;
   border-width: 1px;
   border-radius: 7px;
 }

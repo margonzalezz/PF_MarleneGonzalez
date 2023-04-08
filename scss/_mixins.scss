@@ -1,0 +1,24 @@
+// MIXIN PARA FLEX
+@mixin flexbox ($display, $dire, $wrap, $justify, $align){
+display: $display;
+flex-direction: $dire;
+flex-wrap: $wrap;
+justify-content: $justify;
+text-align: $align;
+    
+}
+
+// MIXING PARA SIZING
+@mixin sizing ($width, $height, $margin, $padding){
+    width: $width;
+    height: $height;
+    margin: $margin;
+    padding: $padding;
+}
+
+// MIXIN PARA TEXTOS
+@mixin text ($size, $weight, $color, $deco, $tAlign ){
+    font-family: $mainFont;
+    font-size: $size;
+    font-weight: $weight;
+}
