@@ -1,4 +1,120 @@
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300&display=swap");
+* {
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.paginas-show {
+  display: none;
+}
+
+.contenedor-footer {
+  display: none;
+}
+
+.newsletter {
+  background-color: #c0a4fb;
+}
+.newsletter button {
+  background-color: #c0a4fb;
+  margin: 15px 5px;
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.accordion-flush, a {
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#accordionFooter ul li {
+  list-style: none;
+}
+
+.accordion-button {
+  text-align: center;
+  background-color: #c0a4fb;
+  font-weight: bold;
+}
+
+.accordion-body {
+  padding: 2px;
+}
+.accordion-body a {
+  color: black;
+  justify-content: center;
+}
+.accordion-body a svg {
+  justify-content: center;
+  margin-left: 40px;
+  padding-bottom: 15px;
+}
+
+.breadcrumb-container {
+  font-size: 1.5rem;
+}
+
+nav div ol li a {
+  text-decoration: none;
+  color: #DAFF8E;
+}
+
+.colDesktop {
+  display: none;
+}
+
+.org {
+  margin-bottom: 20px;
+}
+
+.orden {
+  width: 50%;
+  text-align: center;
+  border: solid;
+  border-color: #b0b0b0;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+}
+.orden button {
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  background: #c0a4fb;
+  background: linear-gradient(180deg, #c0a4fb 48%, #ffbaff 82%);
+}
+
+#accordionTalles .accordion-body {
+  background-color: #d6d6d6;
+}
+
+.filter {
+  width: 50%;
+  border: solid;
+  border-color: #b0b0b0;
+  border-width: 1px;
+  text-align: center;
+}
+.filter button {
+  font-weight: bold;
+}
+
+/* APLICAR / LIMPIAR FILTROS */
+.botonesFiltros button {
+  background: #c0a4fb;
+  background: linear-gradient(180deg, #8c63e2 35%, #7c67aa 100%);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin-left: 15px;
+}
+
 /* NAV MOBILE */
 nav {
   background-color: #c0a4fb;
@@ -26,8 +142,32 @@ a {
   margin-left: 20px;
 }
 
-.op-cuenta ul li {
+.op-cuenta ul li, a ul li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-actions button {
+  display: inline-block;
+  background-color: #c0a4fb;
+  color: #DAFF8E;
+  border: none;
+}
+
+main article {
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+main article button {
+  background-color: #575757;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
 }
 
 /*# sourceMappingURL=main.css.map */

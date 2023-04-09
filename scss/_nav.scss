@@ -33,3 +33,16 @@ nav{
   list-style: none;
 }
 
+  a{
+    @extend .op-cuenta;
+    text-decoration: none;
+    color: $textColorW;
+  }
+
+// BOTONERA DE ACCIONES DE LA NAV MOBILE
+.nav-actions button{
+  display: inline-block;
+  background-color: $mainColor;
+  color: $secondaryColor;
+  border: none;
+}

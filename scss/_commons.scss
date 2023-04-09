@@ -1,0 +1,132 @@
+*{
+    font-family: $mainFont;
+}
+
+// OCULTAR MENU DE PÁGINAS PARA MOBILE
+.paginas-show{
+    display: none;
+}
+
+// FOOTER PARA MOBILE
+.contenedor-footer{
+    display: none;
+}
+
+// NEWSLETTER
+.newsletter{
+    background-color: $mainColor;
+
+        button{
+            background-color: $mainColor;
+            margin: 15px 5px;
+            padding: 5px 10px;
+            color: $textColorW;
+            border: none;
+            border-radius: 10px;
+        }
+}
+
+// OPCIONES DE FOOTER MOBILE
+.accordion-flush{
+    text-align: center;
+}
+    a{
+        @extend .accordion-flush;
+        color: $textColorB;
+        text-decoration: none;
+    }
+
+#accordionFooter ul li {
+    list-style: none;
+}
+
+// TÍTULO DEL BOX
+.accordion-button{
+    text-align: center;
+    background-color: $mainColor;
+    font-weight: bold;
+}
+
+// INTERIOR ACCORDION
+.accordion-body{
+    padding: 2px;
+
+    // SOCIAL MEDIA
+    a{
+        color: $textColorB;
+        justify-content: center;
+        svg{
+            justify-content: center;
+            margin-left: 40px;
+            padding-bottom: 15px;
+        }
+    }
+}
+
+// INICIA BREADCRUMBS GENERAL
+.breadcrumb-container{
+    font-size: 1.5rem;
+  }
+  nav div ol li a{
+    text-decoration: none;
+    color: $secondaryColor;
+  }
+// TERMINA BREADCRUMBS
+
+// INICIA PESTAÑA DE FILTROS PARA MOBILE
+.colDesktop{
+    display: none;
+  }
+
+.org{
+margin-bottom: 20px;
+}
+
+    .orden{
+        width: 50%;
+        text-align: center;
+        border: solid;
+        border-color: $borderColor;
+        border-width: 1px;
+        display: flex;
+        flex-direction: column;
+
+            button{
+                font-weight: bold;
+            }
+    }
+
+.dropdown-menu{
+    background: $mainColor;
+    background: $menuColor;
+}
+
+// TALLES
+#accordionTalles{
+    .accordion-body{
+        background-color: $accordionColor;
+    }
+}
+
+// FILTRAR POR
+.filter{
+    width: 50%;
+    border: solid;
+    border-color:$borderColor;
+    border-width: 1px;
+    text-align: center;
+
+        button{
+            font-weight: bold;
+        }
+  }
+
+  /* APLICAR / LIMPIAR FILTROS */
+  .botonesFiltros button{
+    background: $mainColor;
+    background: $botonFilColor;
+    color: $textColorW;
+    border: none;
+    border-radius: 3px;
+    margin-left: 15px;
+  }

@@ -5,7 +5,7 @@
 }
 
 /* NAV MOBILE */
-nav{
+/* nav{
   background-color:#c0a4fb;
 }
 
@@ -34,19 +34,19 @@ nav{
       .op-cuenta ul li a{
         text-decoration: none;
         color: white;
-      }
+      } */
 
 
 /* BOTONERA DE ACCIONES DE LA NAV MOBILE*/
-.nav-actions button{
+/* .nav-actions button{
   display: inline-block;
   background-color:#c0a4fb;
   color: #DAFF8E;
   border: none;
-}
+} */
 
 /* ARTICULOS DEL INDEX */
-main article{
+/* main article{
   padding: 10px;
   justify-content: center;
   text-align: center;
@@ -57,29 +57,29 @@ main article{
     border: none;
     border-radius: 5px;
     padding: 5px 15px;
-  }
+  } */
 
 /* OCULTAR MENU DE PAGINAS */
-  .paginas-show{
+  /* .paginas-show{
     display: none;
-  }
+  } */
   /* SECCION DE ANUNCIO */
-.seccion-anuncio{
+/* .seccion-anuncio{
   background-color: #c0a4fb;
 }
   .seccion-anuncio a{
     text-decoration: none;
     color: black;
-  }
+  } */
   
 /* INICIA FOOTER */
-
+/* 
 .contenedor-footer{
   display: none;
-}
+} */
 
   /* NEWSLETTER */
-  .newsletter{
+  /* .newsletter{
     background-color: #c0a4fb;
   }
     .newsletter button{
@@ -89,10 +89,10 @@ main article{
       color: white;
       border: none;
       border-radius: 10px;
-    }
+    } */
 
 /* OPCIONES DE FOOTER */
-.accordion-flush{
+/* .accordion-flush{
   text-align: center;
 }
   .accordion-flush a{
@@ -101,40 +101,40 @@ main article{
   }
     #accordionFooter ul li{
       list-style: none;
-    }
+    } */
       /* TITULO DEL BOX */
-      .accordion-button{
+      /* .accordion-button{
         text-align: center;
         background-color: #c0a4fb;
         font-weight: bold;
       }
 .accordion-body{
   padding: 2px;
-}
+} */
   /* SOCIAL MEDIA */
-  .accordion-body a svg{
+  /* .accordion-body a svg{
     justify-content: center;
     margin-left: 40px;
     padding-bottom: 15px;
-  }
+  } */
 
 
 /* INICIA PAGINAS GENERAL */
 
 /* BREADCRUMB PAGINAS */
-.breadcrumb-container{
+/* .breadcrumb-container{
   font-size: 1.5rem;
 }
 nav div ol li a{
   text-decoration: none;
   color: #DAFF8E;
-}
+} */
 /* TERMINA BREADCRUMBS */
 
 /* INICIA PESTAÑA DE FILTROS */
 /* GENERAL */
 
-.colDesktop{
+/* .colDesktop{
   display: none;
 }
 
@@ -155,18 +155,18 @@ nav div ol li a{
     font-weight: bold;
   }
   .dropdown-menu{
-    background: rgb(192,164,251);
+    background: #c0a4fb;
     background: linear-gradient(180deg, #c0a4fb 48%, #ffbaff 82%);
-  }
+  } */
 
 /* TALLES */
-#accordionTalles .accordion-body{
+/* #accordionTalles .accordion-body{
   background-color: #d6d6d6;
 }
 
 #accordionColor .accordion-body{
   background-color: #d6d6d6;
-}
+} */
 
 /* FILTRAR POR */
 .filter{
@@ -175,8 +175,8 @@ nav div ol li a{
   border-color: #b0b0b0;
   border-width: 1px;
   text-align: center;
-  
 }
+
   .filter button{
     font-weight: bold;
   }
