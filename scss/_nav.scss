@@ -1,40 +1,35 @@
 /* NAV MOBILE */
 nav{
-    background-color:$mainColor;
+  background-color: $mainColor;
+}
+
+.offcanvas{
+  background: $mainColor;
+  background: $canvasColor;
+}
+
+  .offcanvas-header{
+    align-items: center;
   }
-  
-  .offcanvas{
-    background: $mainColor;
-    background: linear-gradient(180deg, #c0a4fbe2 35%, #ffbaff 100%);
-  }
-    .offcanvas-header{
-      align-items: center;
+
+    .btn-close{
+      @extend .offcanvas-header;
+      background-color: $textColorW;
     }
-      .offcanvas-header .btn-close{
-        background-color: white;
-      }
-        .offcanvas-header a{
-          display: flex;
-          align-items: center;
-          text-decoration: none;
-        }
-          .offcanvas-header a .cuenta{
-            margin-left: 20px;
-          }
-  
-      .op-cuenta ul li{
-        list-style: none;
-      }
-        .op-cuenta ul li a{
-          text-decoration: none;
-          color: white;
-        }
-  
-  
-  /* BOTONERA DE ACCIONES DE LA NAV MOBILE*/
-  .nav-actions button{
-    display: inline-block;
-    background-color:#c0a4fb;
-    color: #DAFF8E;
-    border: none;
-  }
+
+    a{
+      @extend .offcanvas-header;
+      display: flex;
+      text-decoration: none;
+    }
+
+    .cuenta{
+      @extend .offcanvas-header;
+      margin-left: 20px;
+
+    }
+
+.op-cuenta ul li{
+  list-style: none;
+}
+
