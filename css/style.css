@@ -210,20 +210,20 @@ nav div ol li a{
 
 /* MEDIA QUERY TABLET */
 
-@media (width > 426px) {
+/* @media (width > 426px) { */
   /* INDEX */
 
   /* NAV */
-.contenedor-nav .navbar-logo img{
+/* .contenedor-nav .navbar-logo img{
   object-fit: cover;
   width: 110px;
-}
+} */
 
-.acciones .nav-actions{
+/* .acciones .nav-actions{
   align-items: center;
   justify-content: center;
-}
-  .acciones .nav-actions .fav svg{
+} */
+  /* .acciones .nav-actions .fav svg{
     width: 23px;
     height: 23px;
   }
@@ -234,11 +234,7 @@ nav div ol li a{
     .acciones .nav-actions .profile svg{
       width: 30px;
       height: 30px;
-    }
-
-
-/* DROPDOWN DE ORDENAR POR */
-
+    } */
 
 /* PRODUCTOS HOME */
 .row .productos{
@@ -259,7 +255,7 @@ nav div ol li a{
 .contenedor-footer{
   display: none;
 }
-}
+
 
 
 /* MEDIA DESKTOP */

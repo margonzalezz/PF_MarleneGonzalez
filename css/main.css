@@ -181,4 +181,46 @@ main article button {
   padding: 5px 15px;
 }
 
+/* MEDIA QUERY TABLET */
+@media (width > 426px) {
+  /* INDEX */
+  /* NAV */
+  .contenedor-nav .navbar-logo img {
+    object-fit: cover;
+    width: 110px;
+  }
+  .acciones .nav-actions {
+    align-items: center;
+    justify-content: center;
+  }
+  .acciones .nav-actions .fav svg {
+    width: 23px;
+    height: 23px;
+  }
+  .acciones .nav-actions .shop svg {
+    width: 23px;
+    height: 23px;
+  }
+  .acciones .nav-actions .profile svg {
+    width: 30px;
+    height: 30px;
+  }
+  /* PRODUCTOS HOME */
+  .row .productos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* GRID DE PRODUCTOS */
+  .colShow1 {
+    display: flex;
+  }
+  .colShow2 {
+    display: none;
+  }
+  /* TERMINA GRID PRODUCTOS */
+  .contenedor-footer {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

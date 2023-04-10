@@ -1,0 +1,73 @@
+/* MEDIA QUERY TABLET */
+
+@media (width > 426px) {
+    /* INDEX */
+  
+    /* NAV */
+  .contenedor-nav {
+
+        .navbar-logo{
+             
+                img{
+                    object-fit: cover;
+                    width: 110px;
+                }
+        }
+  }
+
+//   AUMENTAR TAMAÑO DE BOTONERA DE ACCIONES DE LA NAV
+.acciones{
+
+        .nav-actions{
+            align-items: center;
+            justify-content: center;
+
+                    .fav{
+                        svg{
+                            width: 23px;
+                            height: 23px;
+                        }
+                    }
+
+                    .shop{
+                        svg{
+                            width: 23px;
+                            height: 23px;
+                        }
+                    }
+
+                    .profile{
+                            svg{
+                                width: 30px;
+                                height: 30px;
+                            }
+                    }
+
+        }
+}
+
+
+  /* PRODUCTOS HOME */
+
+.row{
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+  /* GRID DE PRODUCTOS */
+  .colShow1{
+    display: flex;
+  }
+  .colShow2{
+    display: none;
+  }
+  
+  /* TERMINA GRID PRODUCTOS */
+  
+  .contenedor-footer{
+    display: none;
+  }
+  }
