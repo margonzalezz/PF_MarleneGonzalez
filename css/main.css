@@ -115,6 +115,17 @@ nav div ol li a {
   margin-left: 15px;
 }
 
+.colShow2 {
+  display: none;
+}
+
+.articulos article {
+  border: solid;
+  border-color: #b0b0b0;
+  border-width: 1px;
+  border-radius: 7px;
+}
+
 /* NAV MOBILE */
 nav {
   background-color: #c0a4fb;

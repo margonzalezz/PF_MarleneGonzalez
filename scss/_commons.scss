@@ -122,11 +122,27 @@ margin-bottom: 20px;
   }
 
   /* APLICAR / LIMPIAR FILTROS */
-  .botonesFiltros button{
-    background: $mainColor;
-    background: $botonFilColor;
-    color: $textColorW;
-    border: none;
-    border-radius: 3px;
-    margin-left: 15px;
+  .botonesFiltros {
+
+        button{
+            background: $mainColor;
+            background: $botonFilColor;
+            color: $textColorW;
+            border: none;
+            border-radius: 3px;
+            margin-left: 15px;
+        }
   }
+
+// PRODUCTOS PAGINAS
+.colShow2{
+    display: none;
+  }
+  .articulos article{
+    border: solid;
+    border-color: $borderColor;
+    border-width: 1px;
+    border-radius: 7px;
+  }
+
+// TERMINA GENERAL

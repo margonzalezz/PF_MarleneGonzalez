@@ -169,7 +169,7 @@ nav div ol li a{
 } */
 
 /* FILTRAR POR */
-.filter{
+/* .filter{
   width: 50%;
   border: solid;
   border-color: #b0b0b0;
@@ -179,21 +179,21 @@ nav div ol li a{
 
   .filter button{
     font-weight: bold;
-  }
+  } */
  
 /* APLICAR / LIMPIAR FILTROS */
-.botonesFiltros button{
-  background: rgb(140,99,226);
+/* .botonesFiltros button{ */
+  /* background: rgb(140,99,226);
   background: linear-gradient(180deg, #8c63e2 35%, #7c67aa 100%);
   color: white;
   border: none;
   border-radius: 3px;
   margin-left: 15px;
-}
+} */
 
 /* GRID DE PRODUCTOS */
 
-.colShow2{
+/* .colShow2{
   display: none;
 }
 .articulos article{
@@ -201,7 +201,7 @@ nav div ol li a{
   border-color: #b0b0b0;
   border-width: 1px;
   border-radius: 7px;
-}
+} */
 /* TERMINA GRID PRODUCTOS */
 
 /* TERMINA PAGINAS GENERAL */
