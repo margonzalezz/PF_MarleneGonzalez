@@ -1,12 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300&display=swap");
 * {
   font-family: "Alumni Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .paginas-show {
   display: none;
 }
 
+.seccion-anuncio {
+  background-color: #c0a4fb;
+  width: 100%;
+}
+.seccion-anuncio a {
+  color: white;
+  align-items: center;
+  text-decoration: none;
+  font-size: x-small;
+}
+
+.contenedor-envios {
+  background-color: #c0a4fb;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  animation: animation 11s linear infinite;
+}
+
+.contenedor-descuentos {
+  background-color: #c0a4fb;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  animation: animation 11s linear infinite;
+}
+
+.contenedor-cuotas {
+  background-color: #c0a4fb;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  animation: animation 11s linear infinite;
+}
+
+@keyframes animation {
+  0% {
+    left: 0%;
+    transform: translateX(0%);
+  }
+  100% {
+    left: 100%;
+    transform: translateX(100%);
+  }
+}
 .contenedor-footer {
   display: none;
 }
@@ -210,7 +256,7 @@ main article button {
     display: flex;
     flex-wrap: wrap;
   }
-  /* GRID DE PRODUCTOS */
+  /* GRID DE PRODUCTOS EN PAGINAS  */
   .colShow1 {
     display: flex;
   }

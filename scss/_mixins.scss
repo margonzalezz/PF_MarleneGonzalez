@@ -9,11 +9,9 @@ text-align: $align;
 }
 
 // MIXING PARA SIZING
-@mixin sizing ($width, $height, $margin, $padding){
+@mixin sizing ($width, $height){
     width: $width;
     height: $height;
-    margin: $margin;
-    padding: $padding;
 }
 
 // MIXIN PARA TEXTOS

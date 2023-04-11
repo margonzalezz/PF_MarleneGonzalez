@@ -1,11 +1,59 @@
 *{
     font-family: $mainFont;
+    overflow-x: hidden;
 }
 
 // OCULTAR MENU DE PÁGINAS PARA MOBILE
 .paginas-show{
     display: none;
 }
+
+
+// SECCION DE ANUNCIO 
+.seccion-anuncio{
+    background-color:$mainColor;
+    width: 100%;
+
+                a{
+                    color: $textColorW;
+                    align-items:center;
+                    text-decoration: none;
+                    font-size: x-small;
+                }
+}
+.contenedor-envios{
+    background-color: $mainColor;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    animation: animation 11s linear infinite;
+}
+.contenedor-descuentos{
+    background-color: $mainColor;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    animation: animation 11s linear infinite;
+}
+.contenedor-cuotas{
+    background-color: $mainColor;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    animation: animation 11s linear infinite;
+}
+@keyframes animation {
+    0%{
+        left: 0%;
+        transform: translateX(0%);
+    }
+    
+    100%{
+        left: 100%;
+        transform: translateX(100%);
+    }
+}
+
 
 // FOOTER PARA MOBILE
 .contenedor-footer{

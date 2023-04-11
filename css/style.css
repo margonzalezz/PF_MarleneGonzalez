@@ -64,13 +64,13 @@
     display: none;
   } */
   /* SECCION DE ANUNCIO */
-/* .seccion-anuncio{
+.seccion-anuncio{
   background-color: #c0a4fb;
 }
   .seccion-anuncio a{
     text-decoration: none;
     color: black;
-  } */
+  }
   
 /* INICIA FOOTER */
 /* 
@@ -238,23 +238,23 @@ nav div ol li a{
 
 /* PRODUCTOS HOME */
 .row .productos{
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-}
+} */
 
 /* GRID DE PRODUCTOS */
-.colShow1{
+/* .colShow1{
   display: flex;
 }
 .colShow2{
   display: none;
-}
+} */
 
 /* TERMINA GRID PRODUCTOS */
-
+/* 
 .contenedor-footer{
   display: none;
-}
+} */
 
 
 
@@ -412,4 +412,5 @@ footer{
     border-radius: 5px;
   }
     /* TERMINA FOOTER */
+}
 }
