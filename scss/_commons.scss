@@ -10,38 +10,35 @@
 
 
 // SECCION DE ANUNCIO 
-.seccion-anuncio{
-    background-color:$mainColor;
-    width: 100%;
 
-                a{
-                    color: $textColorW;
-                    align-items:center;
-                    text-decoration: none;
-                    font-size: x-small;
-                }
+.seccion-anuncio{
+    background-color:black;
+    width: 100%;
 }
+.seccion-anuncio a{
+    text-decoration: none;
+    color: white;
+}
+
 .contenedor-envios{
-    background-color: $mainColor;
-    align-items: center;
+    background-color: black;
     width: 100%;
     position: relative;
     animation: animation 11s linear infinite;
 }
 .contenedor-descuentos{
-    background-color: $mainColor;
-    align-items: center;
+    background-color: black;
     width: 100%;
     position: relative;
     animation: animation 11s linear infinite;
 }
 .contenedor-cuotas{
-    background-color: $mainColor;
-    align-items: center;
+    background-color:black;
     width: 100%;
     position: relative;
     animation: animation 11s linear infinite;
 }
+
 @keyframes animation {
     0%{
         left: 0%;
