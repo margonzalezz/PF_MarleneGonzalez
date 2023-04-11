@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="../css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
- 
   </head>
 <body>
 
@@ -207,319 +206,33 @@
                 <li class="breadcrumb-item">
                   <a href="../index.html">Inicio</a>
                 </li>
-                <li class="breadcrumb-item active" aria-current="page">Botas</li>
+                <li class="breadcrumb-item active" aria-current="page">Artículo</li>
               </ol>
           </div>          
       </nav>
 <!-- TERMINA NAV CON BREADCRUMB -->
 <main>
 
-   <!-- INICIA DIV DE ORDEN PARA MOBILE Y TABLET -->
-  <div class="org d-flex justify-content-center">
-    <!-- INICIA BOTON ORDENAR POR -->
-      <div class="orden">
-        <div class="btn-group">
-          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
-            ORDENAR POR
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">DESTACADOS</a></li>
-            <li><a class="dropdown-item" href="#">MAS VISITADOS</a></li>
-            <li><a class="dropdown-item" href="#">PRECIO MAS BAJO</a></li>
-            <li><a class="dropdown-item" href="#">PRECIO MAS ALTO</a></li>
-          </ul>
-        </div>
-      </div>
 
-      <!-- INICIA FILTROS -->
-      <!-- INICIA FITLRAR POR -->
-      <div class="filter">
-        <button class="btn filtrar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-          FILTRAR POR
-        </button>
 
-        <div class="offcanvas offcanvas-end text-white" tabindex="-1" id="offcanvasRight" aria-labelledby="canvasTitle">
-          <div class="offcanvas-header">
-            <p class="offcanvas-title" id="canvasTitle">
-              FILTRAR POR</p>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <hr class="text-white">
-          <!-- INICIA CUERPO -->
-          <div class="offcanvas-body bodyCanvas">
-              <!-- INICIA FILTRO COLOR -->
-              <div>
-                <div class="dropdown mt-3">
-                  <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
-                    COLORES
-                  </button>
-                  <ul class="dropdown-menu bg-black text-white px-3 justify-content-center">
-                    <li>
-                      <label class="text-white" for="rojo">Rojo </label>
-                      <input type="checkbox" name="rojo" id="ch-rojo">
-                    </li>
-                    <li>
-                      <label for="negro">Negro</label>
-                      <input type="checkbox" name="negro" id="ch-negro">
-                    </li>
-                    <li>
-                      <label for="blanco">Blanco</label>
-                      <input type="checkbox" name="blanco" id="ch-blanco">
-                    </li>
-                    <li>
-                      <label for="marron">Marrón</label>
-                      <input type="checkbox" name="marron" id="ch-marron">
-                    </li>
-                  </ul>
-                </div>
-              </div>
-                <!-- TERMINA FILTRO COLOR -->
-                <hr>
-                <!-- INICIA FILTRO TALLE -->
-                <div>
-                  <div class="dropdown mt-3 align-items-center">
-                    <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown">
-                      TALLES
-                    </button>
-                    <ul class="dropdown-menu bg-black text-white px-3">
-                      <li>
-                        <label for="nro">35</label>
-                        <input type="checkbox" name="nro" id="nro35">
-                      </li>
-                      <li>
-                        <label for="nro">36</label>
-                        <input type="checkbox" name="nro" id="nro36">
-                      </li>
-                      <li>
-                        <label for="nro">37</label>
-                        <input type="checkbox" name="nro" id="nro37">
-                      </li>
-                      <li>
-                        <label for="nro">38</label>
-                        <input type="checkbox" name="nro" id="nro38">
-                      </li>
-                      <li>
-                        <label for="nro">39</label>
-                        <input type="checkbox" name="nro" id="nro39">
-                      </li>
-                      <li>
-                        <label for="nro">40</label>
-                        <input type="checkbox" name="nro" id="nro40">
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- TERMINA FILTRO TALLE -->
-                <hr>
-                <!-- BOTONES FINALES APLICAR Y LIMPIAR FILTROS -->
-                <div class="botonesFiltros">
-                  <button>
-                    APLICAR
-                  </button>
-                  <button>
-                    LIMPIAR FILTROS
-                  </button>
-                </div>
-           </div>
-        </div>
-    </div>
-</div>
-  <!-- TERMINA DIV DE ORDEN PARA MOBILE Y TABLET -->
-  <!-- INICIA DIV DE FILTROS PARA DESKTOP -->
 
-<div class="container text-center">
-  <div class="row">
-    <div class="col-lg-2 colDesktop">
-      <div>
-        <select name="filtros text-white">
-          <option>ORDENAR POR</option>
-          <option value="destacados">DESTACADOS</option>
-          <option value="creciente">CRECIENTE</option>
-          <option value="decreciente">DECRECIENTE</option>
-        </select>
-      </div>
-      <!-- SECCION TALLES-->
-      <hr>
-      <div class="accordion" id="accordionTalles">
-        <div class="accordion-item">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Talle
-            </button>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionTalles">
-            <div class="accordion-body">
-              <div>
-                <label for="nro">35</label>
-                <input type="checkbox" name="nro" id="nro35">
-              </div>
-              <div>
-                <label for="nro">36</label>
-                <input type="checkbox" name="nro" id="nro36">
-              </div>
-              <div>
-                <label for="nro">37</label>
-                <input type="checkbox" name="nro" id="nro37">
-              </div>
-              <div>
-                <label for="nro">38</label>
-                <input type="checkbox" name="nro" id="nro38">
-              </div>
-              <div>
-                <label for="nro">39</label>
-                <input type="checkbox" name="nro" id="nro39">
-              </div>
-              <div>
-                <label for="nro">40</label>
-                <input type="checkbox" name="nro" id="nro40">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <!-- SECCION COLORES-->
-    <hr>
-    <div class="accordion" id="accordionColor">
-      <div class="accordion-item">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Color
-          </button>
-        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionColor">
-          <div class="accordion-body">
-            <div>
-              <label for="rojo">Rojo </label>
-              <input type="checkbox" name="rojo" id="ch-rojo">
-            </div>            
-            <div>
-              <label for="negro">Negro</label>
-              <input type="checkbox" name="negro" id="ch-negro">
-            </div>
-            <div>
-              <label for="blanco">Blanco</label>
-              <input type="checkbox" name="blanco" id="ch-blanco">
-            </div>
-            <div>
-              <label for="marron">Marrón</label>
-              <input type="checkbox" name="marron" id="ch-marron">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-    <!-- TERMINA class="colDesktop" FILTROS PARA DESKTOP -->
-    <!-- col-4 col-md-3 col-lg-2 -->
-    <div class="col-6 col-md-4.5 col-lg-3">
-      <div class="articulos">
-        <article class="art37 mb-5">
-          <img src="../img/productos/botas/botas.jpg" class="img-fluid" alt="botas negras plataforma baja">
-          <div>
-            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-            <button class="text-white">Ver producto</button>
-          </div>
-        </article>
-        
-        <article class="art38 mb-5">
-          <img src="../img/productos/botas/brown.jpg" class="img-fluid" alt="botas caña alta color chocolate">
-          <div>
-            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-            <button class="text-white">Ver producto</button>
-          </div>
-        </article>
 
-        <article class="art39 mb-5">
-          <img src="../img/productos/botas/cierre_cremita.jpg" class="img-fluid" alt="botas color hueso con cierre">
-          <div>
-            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-            <button class="text-white">Ver producto</button>
-          </div>
-        </article>
 
-        <article class="art40 mb-5">
-          <img src="../img/productos/botas/marron.jpg" class="img-fluid" alt="botas color ladrillo con taco medio">
-          <div>
-            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-            <button class="text-white">Ver producto</button>
-          </div>
-        </article>
-      </div>
-    </div>
-    <!-- TERMINA COLUMNA 1 -->
-    <!-- INICIA COLUMNA 2 -->
-    <div class="col colShow1 col-6 col-md-4.5 col-lg-3">
-        <div class="articulos">
-          <article class="art41 mb-5">
-            <img src="../img/productos/botas/mostaza_taco.jpg" class="img-fluid" alt="botas color mostaza con taco medio y cierre al costado">
-            <div>
-              <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-              <button class="text-white">Ver producto</button>
-            </div>
-          </article>
 
-          <article class="art42 mb-5">
-            <img src="../img/productos/botas/negras_taco.jpg" class="img-fluid" alt="botas negras con plataforma">
-            <div>
-              <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-              <button class="text-white">Ver producto</button>
-            </div>
-          </article>
 
-          <article class="art43 mb-5">
-            <img src="../img/productos/botas/negro_cierre.jpg" class="img-fluid" alt="botas tipo texanas color negro con cierre">
-            <div>
-              <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-              <button class="text-white">Ver producto</button>
-            </div>
-          </article>
 
-          <article class="art44 mb-5">
-            <img src="../img/productos/botas/plataforma-negra.jpg" class="img-fluid" alt="borcegos negros con plataforma y elastico">
-            <div>
-              <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-              <button class="text-white">Ver producto</button>
-            </div>
-          </article>
 
-        </div>
-    </div>
-    <div class="col colShow2 col-md-4.5 col-lg-3">
-      <div class="articulos">
 
-        <article class="art45 mb-5">
-          <img src="../img/productos/botas/borcego-beige.jpg" class="img-fluid" alt="borcego color beige con cordondes negros">
-          <div>
-            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-            <button class="text-white">Ver producto</button>
-          </div>
-        </article>
 
-        <article class="art46 mb-5">
-          <img src="../img/productos/botas/borcego_blanco.jpg" class="img-fluid" alt="borcego color beige con cordondes marrones">
-          <div>
-            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-            <button class="text-white">Ver producto</button>
-          </div>
-        </article>
 
-        <article class="art47 mb-5">
-          <img src="../img/productos/botas/borcego_marron.jpg" class="img-fluid" alt="borcego marron con elastico y plataforma">
-          <div>
-            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-            <button class="text-white">Ver producto</button>
-          </div>
-        </article>
 
-        <article class="art48 mb-5">
-          <img src="../img/productos/botas/bota_piel.jpg" class="img-fluid" alt="botas negras con cierre y piel">
-          <div>
-            <p class="py-2 mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-            <button class="text-white">Ver producto</button>
-          </div>
-        </article>
 
-      </div>
-    </div>
-  </div>
-</div>
+
+
+
+
+
 
 </main>
   <!-- INICIA FOOTER -->
