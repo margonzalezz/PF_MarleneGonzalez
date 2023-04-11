@@ -9,38 +9,36 @@
 }
 
 .seccion-anuncio {
-  background-color: #c0a4fb;
+  background-color: black;
   width: 100%;
+  overflow-y: hidden;
 }
 .seccion-anuncio a {
-  color: white;
-  align-items: center;
   text-decoration: none;
-  font-size: x-small;
+  color: white;
 }
 
-.contenedor-envios {
-  background-color: #c0a4fb;
-  align-items: center;
+.contenedor-envios, .contenedor-cuotas, .contenedor-descuentos {
+  background-color: black;
   width: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
   animation: animation 11s linear infinite;
 }
-
-.contenedor-descuentos {
-  background-color: #c0a4fb;
+.contenedor-envios a, .contenedor-cuotas a, .contenedor-descuentos a {
+  display: flex;
   align-items: center;
-  width: 100%;
-  position: relative;
-  animation: animation 11s linear infinite;
+  overflow: hidden;
 }
-
-.contenedor-cuotas {
-  background-color: #c0a4fb;
-  align-items: center;
-  width: 100%;
-  position: relative;
-  animation: animation 11s linear infinite;
+.contenedor-envios a svg, .contenedor-cuotas a svg, .contenedor-descuentos a svg {
+  margin-top: 1px;
+  padding-top: 1px;
+}
+.contenedor-envios a p, .contenedor-cuotas a p, .contenedor-descuentos a p {
+  margin-left: 10px;
+  margin-top: 10%;
 }
 
 @keyframes animation {
