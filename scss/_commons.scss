@@ -1,6 +1,5 @@
 *{
     font-family: $mainFont;
-    overflow-x: hidden;
 }
 
 // OCULTAR MENU DE PÁGINAS PARA MOBILE
@@ -14,7 +13,7 @@
 .seccion-anuncio{
     background-color:$textColorB;
     width: 100%;
-    overflow-y: hidden;
+    overflow-x: hidden;
 
         a{
             text-decoration: none;
@@ -65,7 +64,12 @@
     }
 }
 
-
+.videoIndex{
+    width: 100%;
+        iframe{
+            width: 100%;
+        }
+}
 // FOOTER PARA MOBILE
 .contenedor-footer{
     display: none;
@@ -126,10 +130,17 @@
 .breadcrumb-container{
     font-size: 1.5rem;
   }
-  nav div ol li a{
-    text-decoration: none;
-    color: $secondaryColor;
-  }
+  nav{
+        ol{
+            li{
+                a{
+                    text-decoration: none;
+                    color: $secondaryColor;
+                }                  
+            } 
+        } 
+  } 
+
 // TERMINA BREADCRUMBS
 
 // INICIA PESTAÑA DE FILTROS PARA MOBILE

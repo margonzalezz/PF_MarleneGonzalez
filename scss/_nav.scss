@@ -29,20 +29,27 @@ nav{
 
     }
 
-.op-cuenta ul li{
-  list-style: none;
-}
+.op-cuenta{
+            ul{
+              li{
+                list-style: none;
+              }               
+            }
 
-  a{
-    @extend .op-cuenta;
-    text-decoration: none;
-    color: $textColorW;
-  }
+}
+a{
+  @extend .op-cuenta;
+  text-decoration: none;
+  color: $textColorW;
+}
 
 // BOTONERA DE ACCIONES DE LA NAV MOBILE
-.nav-actions button{
-  display: inline-block;
-  background-color: $mainColor;
-  color: $secondaryColor;
-  border: none;
+.nav-actions{
+              button{
+              display: inline-block;
+              background-color: $mainColor;
+              color: $secondaryColor;
+              border: none;
+            }
 }
+

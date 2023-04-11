@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300&display=swap");
 * {
   font-family: "Alumni Sans", sans-serif;
-  overflow-x: hidden;
 }
 
 .paginas-show {
@@ -11,7 +10,7 @@
 .seccion-anuncio {
   background-color: black;
   width: 100%;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .seccion-anuncio a {
   text-decoration: none;
@@ -51,6 +50,13 @@
     transform: translateX(100%);
   }
 }
+.videoIndex {
+  width: 100%;
+}
+.videoIndex iframe {
+  width: 100%;
+}
+
 .contenedor-footer {
   display: none;
 }
@@ -103,7 +109,7 @@ a {
   font-size: 1.5rem;
 }
 
-nav div ol li a {
+nav ol li a {
   text-decoration: none;
   color: #DAFF8E;
 }
