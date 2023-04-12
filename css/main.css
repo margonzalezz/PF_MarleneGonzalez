@@ -115,6 +115,11 @@ a {
   padding-bottom: 15px;
 }
 
+.redesFooter {
+  justify-content: center;
+  display: flex;
+}
+
 .breadcrumb-container {
   font-size: 1.5rem;
 }
