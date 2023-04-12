@@ -81,10 +81,12 @@ margin-bottom: 20px;
 
 /* GRID DE PRODUCTOS */
 .colShow1{
-    display: flex;
+    display: list-item;
+    list-style: none;
   }
   .colShow2{
-    display: flex;
+    display: list-item;
+    list-style: none;
   }
   /* TERMINA GRID PRODUCTOS */
 
