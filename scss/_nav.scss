@@ -31,17 +31,22 @@ nav{
 
 .op-cuenta{
             ul{
+
               li{
                 list-style: none;
+                 
+                a{
+                    text-decoration: none;
+                    color: $textColorW;
+                  }
               }               
             }
+}
 
+.redesCanv{
+  display: flex;
 }
-a{
-  @extend .op-cuenta;
-  text-decoration: none;
-  color: $textColorW;
-}
+
 
 // BOTONERA DE ACCIONES DE LA NAV MOBILE
 .nav-actions{

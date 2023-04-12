@@ -58,7 +58,8 @@
 
   /* GRID DE PRODUCTOS EN PAGINAS  */
   .colShow1{
-    display: flex;
+    display: list-item;
+    list-style: none;
   }
   .colShow2{
     display: none;

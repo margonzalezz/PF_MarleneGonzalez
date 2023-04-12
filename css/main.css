@@ -75,7 +75,7 @@ h3 {
   background-color: #c0a4fb;
 }
 .newsletter button {
-  background-color: #c0a4fb;
+  background-color: #575757;
   margin: 15px 5px;
   padding: 5px 10px;
   color: white;
@@ -213,13 +213,16 @@ a {
   margin-left: 20px;
 }
 
-.op-cuenta ul li, a ul li {
+.op-cuenta ul li {
   list-style: none;
 }
-
-a {
+.op-cuenta ul li a {
   text-decoration: none;
   color: white;
+}
+
+.redesCanv {
+  display: flex;
 }
 
 .nav-actions button {
@@ -272,7 +275,8 @@ main article button {
   }
   /* GRID DE PRODUCTOS EN PAGINAS  */
   .colShow1 {
-    display: flex;
+    display: list-item;
+    list-style: none;
   }
   .colShow2 {
     display: none;
@@ -368,6 +372,7 @@ main article button {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
   }
   .contenedor-descuentos {
     padding-top: 10px;
