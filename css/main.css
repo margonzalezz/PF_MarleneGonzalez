@@ -281,5 +281,140 @@ main article button {
     display: none;
   }
 }
+/* MEDIA DESKTOP */
+@media (width > 769px) {
+  /* INDEX */
+  .row .productos {
+    justify-content: space-around;
+  }
+  .paginas-show {
+    display: flex;
+    color: #DAFF8E;
+  }
+  .paginas-show .navbar-nav {
+    flex-direction: row;
+  }
+  .paginas-show .navbar-nav .nav-item {
+    font-size: 2rem;
+    margin-left: 20px;
+  }
+  /* OCULTAR CANVAS PARA DESKTOP */
+  .canvaShow {
+    display: none;
+  }
+  /* BOTONERA DE ACCIONES DE LA NAV */
+  .acciones .nav-actions {
+    align-items: center;
+    justify-content: center;
+  }
+  .acciones .nav-actions .fav svg {
+    width: 23px;
+    height: 23px;
+  }
+  .acciones .nav-actions .shop svg {
+    width: 23px;
+    height: 23px;
+  }
+  .acciones .nav-actions .profile svg {
+    width: 23px;
+    height: 23px;
+  }
+  /* OCULTAR NAV DE FILTROS PARA DESKTOP */
+  .org .orden {
+    display: none;
+  }
+  .filter {
+    display: none;
+  }
+  /* FILTROS SIDEBAR */
+  .container .row-select {
+    background-color: #c0a4fb;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    color: white;
+    font-size: 1.3rem;
+    padding: 5px 15px;
+  }
+  .colDesktop {
+    display: list-item;
+    list-style: none;
+  }
+  .org {
+    margin-bottom: 20px;
+  }
+  /* GRID DE PRODUCTOS */
+  .colShow1 {
+    display: flex;
+  }
+  .colShow2 {
+    display: flex;
+  }
+  /* TERMINA GRID PRODUCTOS */
+  .row .productos article {
+    width: 220px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    align-items: center;
+  }
+  /* SECCION DE ANUNCIO DE ENVIOS / DESCUENTOS / CUOTAS */
+  .seccion-anuncio {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor-descuentos {
+    padding-top: 10px;
+    margin-left: 30px;
+  }
+  .contenedor-cuotas {
+    margin-left: 30px;
+    padding-top: 10px;
+  }
+  /* FOOTER PARA MOBILE OCULTO */
+  .footerMobileTablet {
+    display: none;
+  }
+  .contenedor-footer {
+    display: flex;
+  }
+  /* FOOTER PARA DESKTOP */
+  footer {
+    background-color: #aa92df;
+    width: 100%;
+  }
+  footer div a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  .contenedor-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .contenedor-footer .box-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-left: 20px;
+  }
+  .contenedor-footer .box-footer .box-footer-redes {
+    padding-top: 50px;
+  }
+  .contenedor-footer .box-footer .box-footer-mail input {
+    border: none;
+    border-radius: 5px;
+  }
+  .contenedor-footer .box-footer .box-footer-mail button {
+    background-color: #DAFF8E;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

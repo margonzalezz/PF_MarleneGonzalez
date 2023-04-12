@@ -262,12 +262,12 @@ nav div ol li a{
 
 @media (width > 769px){
     /* INDEX */
-.row .productos{
+/* .row .productos{
   justify-content: space-around;
-}
+} */
 
 /* MENU DE PAGINAS PARA DESKTOP */
-.paginas-show{
+/* .paginas-show{
   display: flex;
   color: #DAFF8E;
 }
@@ -277,15 +277,15 @@ nav div ol li a{
   .paginas-show .navbar-nav .nav-item{
     font-size: 2rem;
     margin-left: 20px;
-  }
+  } */
 
   /* OCULTAR CANVAS PARA DESKTOP */
-.canvaShow{
+/* .canvaShow{
   display: none;
-}
+} */
 
 /* BOTONERA DE ACCIONES DE LA NAV */
-.acciones .nav-actions{
+/* .acciones .nav-actions{
   align-items: center;
   justify-content: center;
 }
@@ -300,15 +300,15 @@ nav div ol li a{
     .acciones .nav-actions .profile svg{
       width: 30px;
       height: 30px;
-    }
+    } */
 
 /* OCULTAR NAV DE FILTROS PARA DESKTOP */
-.org .orden{
+/* .org .orden{
   display: none;
 }
 .filter{
   display: none;
-}
+} */
 
 /* FILTROS SIDEBAR */
 .container .row select{
@@ -330,22 +330,22 @@ nav div ol li a{
 }
 
 /* GRID DE PRODUCTOS */
-.colShow1{
+/* .colShow1{
   display: flex;
 }
 .colShow2{
   display: flex;
-}
+} */
 /* TERMINA GRID PRODUCTOS */
 
-.row .productos article{
+/* .row .productos article{
   display: flex;
   flex-wrap: wrap;
   width: 220px;
   height: 350px;
   margin-left: 10px;
   align-items: center;
-}
+} */
 
 /* SECCION DE ANUNCIO DE ENVIOS / DESCUENTOS / CUOTAS */
 .seccion-anuncio{
@@ -388,15 +388,15 @@ footer{
       padding: 50px;
       margin-left: 20px;
     }
-        h3{
+        /* h3{
           font-weight: bold;
           font-size: 1.6rem;
-        }
-        footer div a{
+        } */
+        /* footer div a{
           color: black;
           text-decoration: none;
           font-size: 1.2rem;
-        }
+        } */
 
 .box-footer-redes{
   padding-top: 50px;
