@@ -3,5 +3,5 @@ node_modules/
 *.log
 *.ia
 *.psd
-*txt
-*.map
+*.txt
+*.css.map
