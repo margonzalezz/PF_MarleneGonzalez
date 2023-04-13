@@ -80,14 +80,18 @@
     display: list-item;
     list-style: none;
   }
-
+// INICIA CUERPO DE FILTROS POR TALLE
+#accordionTalles{
+  .accordion-body{
+    background-color: $borderColor;
+  }
+}
 // INICIA CUERPO DE FILTROS POR COLOR
 #accordionColor{
   .accordion-body{
     background-color: $borderColor;
   }
 }
-
 // TERMINA CUERPO DE FILTROS POR COLOR
 
 .org{

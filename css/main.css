@@ -382,6 +382,9 @@ main article button {
     display: list-item;
     list-style: none;
   }
+  #accordionTalles .accordion-body {
+    background-color: #b0b0b0;
+  }
   #accordionColor .accordion-body {
     background-color: #b0b0b0;
   }

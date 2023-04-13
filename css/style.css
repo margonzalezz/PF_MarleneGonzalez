@@ -260,7 +260,7 @@ nav div ol li a{
 
 /* MEDIA DESKTOP */
 
-@media (width > 769px){
+/* @media (width > 769px){ */
     /* INDEX */
 /* .row .productos{
   justify-content: space-around;
@@ -348,7 +348,7 @@ nav div ol li a{
 } */
 
 /* SECCION DE ANUNCIO DE ENVIOS / DESCUENTOS / CUOTAS */
-.seccion-anuncio{
+/* .seccion-anuncio{
   font-size: 1.5rem;
   display: flex;
   align-items: center;
@@ -361,16 +361,16 @@ nav div ol li a{
   .contenedor-cuotas{
     margin-left: 30px;
     padding-top: 10px;
-  }
+  } */
 
   /* FOOTER PARA MOBILE OCULTO */
-.footerMobileTablet{
+/* .footerMobileTablet{
   display: none;
 }
 
 .contenedor-footer{
   display: flex;
-}
+} */
 
 /* FOOTER PARA DESKTOP */
 /* footer{
@@ -398,7 +398,7 @@ nav div ol li a{
           font-size: 1.2rem;
         } */
 
-.box-footer-redes{
+/* .box-footer-redes{
   padding-top: 50px;
 }
 .box-footer-mail input{
@@ -411,6 +411,6 @@ nav div ol li a{
     border: none;
     border-radius: 5px;
   }
-    /* TERMINA FOOTER */
+
 }
-}
+} */
