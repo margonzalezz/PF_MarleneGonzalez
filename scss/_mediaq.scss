@@ -47,15 +47,19 @@
 }
 
 
-  /* PRODUCTOS HOME */
-
+  /* PRODUCTOS INDEX */
 .row{
     .productos{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
-
+.container{
+  .row{
+    justify-content: center;
+  }
+}
   /* GRID DE PRODUCTOS EN PAGINAS  */
 
   .colShow1{
@@ -69,6 +73,19 @@
   
   /* TERMINA GRID PRODUCTOS */
   
+// INICIA PRODUCTOS
+.articulos {
+    article{
+      height: 110%;
+
+        p{
+          height: 60px;
+        }
+  }
+}
+
+// TERMINA PRODUCTOS
+
 .publi-index{
   display: flex;
   align-items: center;

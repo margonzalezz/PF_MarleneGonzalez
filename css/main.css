@@ -184,11 +184,14 @@ nav ol li a {
   display: none;
 }
 
-.articulos article {
+.col .articulos article {
   border: solid;
   border-color: #b0b0b0;
   border-width: 1px;
   border-radius: 7px;
+}
+.col .articulos article p {
+  height: 60px;
 }
 
 /* NAV MOBILE */
@@ -273,10 +276,14 @@ main article button {
     width: 30px;
     height: 30px;
   }
-  /* PRODUCTOS HOME */
+  /* PRODUCTOS INDEX */
   .row .productos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container .row {
+    justify-content: center;
   }
   /* GRID DE PRODUCTOS EN PAGINAS  */
   .colShow1 {
@@ -288,6 +295,12 @@ main article button {
     list-style: none;
   }
   /* TERMINA GRID PRODUCTOS */
+  .articulos article {
+    height: 110%;
+  }
+  .articulos article p {
+    height: 60px;
+  }
   .publi-index {
     display: flex;
     align-items: center;
