@@ -50,10 +50,10 @@
   /* PRODUCTOS HOME */
 
 .row{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
   /* GRID DE PRODUCTOS EN PAGINAS  */

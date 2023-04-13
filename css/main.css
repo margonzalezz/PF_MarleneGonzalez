@@ -274,11 +274,9 @@ main article button {
     height: 30px;
   }
   /* PRODUCTOS HOME */
-  .row {
+  .row .productos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
   }
   /* GRID DE PRODUCTOS EN PAGINAS  */
   .colShow1 {
