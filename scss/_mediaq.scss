@@ -69,6 +69,28 @@
   
   /* TERMINA GRID PRODUCTOS */
   
+.publi-index{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+    .society{
+      font-size: 1.3rem;
+    }
+    .textVideo{
+      font-size: 0.9rem;
+      margin: 10px 70px;
+    }
+    .videoIndex{
+      width: 100%;
+      margin-right: 10%;
+
+                        iframe{
+                          width: 130%;
+                        }
+    }
+}
+
+  // FOOTER 
   .contenedor-footer{
     display: none;
   }

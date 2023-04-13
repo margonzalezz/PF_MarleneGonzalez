@@ -288,6 +288,25 @@ main article button {
     list-style: none;
   }
   /* TERMINA GRID PRODUCTOS */
+  .publi-index {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .publi-index .society {
+    font-size: 1.3rem;
+  }
+  .publi-index .textVideo {
+    font-size: 0.9rem;
+    margin: 10px 70px;
+  }
+  .publi-index .videoIndex {
+    width: 100%;
+    margin-right: 10%;
+  }
+  .publi-index .videoIndex iframe {
+    width: 130%;
+  }
   .contenedor-footer {
     display: none;
   }
