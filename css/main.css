@@ -361,7 +361,7 @@ main article button {
     width: 23px;
     height: 23px;
   }
-  /* OCULTAR NAV DE FILTROS PARA DESKTOP */
+  /* OCULTAR NAV DE FILTROS EN DESKTOP */
   .org .orden {
     display: none;
   }
@@ -369,7 +369,7 @@ main article button {
     display: none;
   }
   /* FILTROS SIDEBAR */
-  .container .row-select {
+  .colDesktop select {
     background-color: #c0a4fb;
     border: none;
     border-radius: 3px;
@@ -381,6 +381,9 @@ main article button {
   .colDesktop {
     display: list-item;
     list-style: none;
+  }
+  #accordionColor .accordion-body {
+    background-color: #b0b0b0;
   }
   .org {
     margin-bottom: 20px;

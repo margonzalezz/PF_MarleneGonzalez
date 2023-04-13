@@ -48,7 +48,7 @@
                     }
         }
 }
-/* OCULTAR NAV DE FILTROS PARA DESKTOP */
+/* OCULTAR NAV DE FILTROS EN DESKTOP */
 .org {
   .orden{
     display: none;
@@ -59,21 +59,36 @@
   }
 
 /* FILTROS SIDEBAR */
-.container{
-    .row-select{
-        background-color: $mainColor;
-        border: none;
-        border-radius: 3px;
-        font-size: 1rem;
-        color: $textColorW;
-        font-size: 1.3rem;
-        padding: 5px 15px;
-    }
+
+
+
+
+
+
+.colDesktop{
+            select{
+              background-color: $mainColor;
+              border: none;
+              border-radius: 3px;
+              font-size: 1rem;
+              color: $textColorW;
+              font-size: 1.3rem;
+              padding: 5px 15px;
+            }
 }
 .colDesktop{
     display: list-item;
     list-style: none;
   }
+
+// INICIA CUERPO DE FILTROS POR COLOR
+#accordionColor{
+  .accordion-body{
+    background-color: $borderColor;
+  }
+}
+
+// TERMINA CUERPO DE FILTROS POR COLOR
 
 .org{
 margin-bottom: 20px;
