@@ -382,9 +382,12 @@ main article button {
     list-style: none;
   }
   /* TERMINA GRID PRODUCTOS */
+  .publi-index .textoP {
+    width: 60%;
+  }
   .publi-index .videoIndex {
-    width: 100%;
-    margin-right: 10%;
+    width: 40%;
+    justify-content: end;
   }
   .publi-index .videoIndex iframe {
     width: 100%;
@@ -446,12 +449,12 @@ main article button {
   .contenedor-footer {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .box-footer {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 10px;
     margin-left: 20px;
   }
   .redesIcons {

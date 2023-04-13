@@ -89,17 +89,26 @@ margin-bottom: 20px;
     list-style: none;
   }
   /* TERMINA GRID PRODUCTOS */
+
+  // INICIA PUBLICIDAD CON VIDEO
 .publi-index{
 
-  .videoIndex{
-    width: 100%;
-    margin-right: 10%;
+    .textoP{
+      width: 60%;
+    }
+    .videoIndex{
+      width: 40%;
+      justify-content: end;
+                
+                iframe{
+                  width: 100%;
+                }
+    }
 
-              iframe{
-                width: 100%;
-              }
-  }
 }
+// TERMINA PUBLICIDAD CON VIDEO
+
+// INICIA SECCION DE ARTICULOS DEL INDEX
   .row{
     width: 100%;
     .productos{
@@ -163,12 +172,12 @@ footer{
 .contenedor-footer{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
     .box-footer{
         display: flex;
         flex-direction: column;
-        padding: 30px;
+        padding: 10px;
         margin-left: 20px;
       }
 
@@ -195,7 +204,7 @@ footer{
             }
 
 }
-
+// TERMINA FOOTER PARA DESKTOP
 
 
 
