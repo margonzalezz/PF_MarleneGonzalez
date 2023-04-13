@@ -89,7 +89,17 @@ margin-bottom: 20px;
     list-style: none;
   }
   /* TERMINA GRID PRODUCTOS */
+.publi-index{
 
+  .videoIndex{
+    width: 100%;
+    margin-right: 10%;
+
+              iframe{
+                width: 100%;
+              }
+  }
+}
   .row{
     width: 100%;
     .productos{

@@ -291,7 +291,6 @@ main article button {
   .publi-index {
     display: flex;
     align-items: center;
-    justify-content: space-around;
   }
   .publi-index .society {
     font-size: 1.3rem;
@@ -383,6 +382,13 @@ main article button {
     list-style: none;
   }
   /* TERMINA GRID PRODUCTOS */
+  .publi-index .videoIndex {
+    width: 100%;
+    margin-right: 10%;
+  }
+  .publi-index .videoIndex iframe {
+    width: 100%;
+  }
   .row {
     width: 100%;
   }
