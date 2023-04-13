@@ -1,6 +1,6 @@
 /* MEDIA QUERY TABLET */
 
-@media (width > 426px) {
+@media (width > 768px) {
     /* INDEX */
   
     /* NAV */
@@ -50,19 +50,21 @@
   /* PRODUCTOS HOME */
 
 .row{
-    .productos{
-        display: flex;
-        flex-wrap: wrap;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
   /* GRID DE PRODUCTOS EN PAGINAS  */
+
   .colShow1{
     display: list-item;
     list-style: none;
   }
   .colShow2{
-    display: none;
+    display: list-item;
+    list-style: none;
   }
   
   /* TERMINA GRID PRODUCTOS */

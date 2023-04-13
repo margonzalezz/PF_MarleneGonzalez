@@ -250,7 +250,7 @@ main article button {
 }
 
 /* MEDIA QUERY TABLET */
-@media (width > 426px) {
+@media (width > 768px) {
   /* INDEX */
   /* NAV */
   .contenedor-nav .navbar-logo img {
@@ -274,9 +274,11 @@ main article button {
     height: 30px;
   }
   /* PRODUCTOS HOME */
-  .row .productos {
+  .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   /* GRID DE PRODUCTOS EN PAGINAS  */
   .colShow1 {
@@ -284,7 +286,8 @@ main article button {
     list-style: none;
   }
   .colShow2 {
-    display: none;
+    display: list-item;
+    list-style: none;
   }
   /* TERMINA GRID PRODUCTOS */
   .contenedor-footer {
@@ -292,7 +295,7 @@ main article button {
   }
 }
 /* MEDIA DESKTOP */
-@media (width > 769px) {
+@media (width > 1200px) {
   /* INDEX */
   .row .productos {
     justify-content: space-around;
@@ -396,8 +399,14 @@ main article button {
   }
   /* FOOTER PARA DESKTOP */
   footer {
-    background-color: #aa92df;
+    background-color: #c0a4fb;
+    font-family: "Alumni Sans", sans-serif;
     width: 100%;
+  }
+  footer div p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   footer div a {
     color: black;
@@ -409,24 +418,28 @@ main article button {
     flex-wrap: nowrap;
     justify-content: center;
   }
-  .contenedor-footer .box-footer {
+  .box-footer {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 30px;
     margin-left: 20px;
   }
-  .contenedor-footer .box-footer .box-footer-redes {
-    padding-top: 50px;
+  .redesIcons {
+    display: flex;
   }
-  .contenedor-footer .box-footer .box-footer-mail input {
+  .mail input {
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
+    margin-bottom: 10px;
   }
-  .contenedor-footer .box-footer .box-footer-mail button {
+  .mail a {
+    justify-content: center;
+  }
+  .mail a button {
+    margin-left: 10px;
+    border: none;
+    border-radius: 7px;
     background-color: #DAFF8E;
-    margin-top: 10px;
-    border: none;
-    border-radius: 5px;
   }
 }
 
