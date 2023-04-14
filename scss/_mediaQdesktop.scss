@@ -1,13 +1,15 @@
 /* MEDIA DESKTOP */
 
 @media (width > 1024px){
-    /* INDEX */
+
+                                 /* INDEX */
+
 .row{
     .productos{
         justify-content: space-around;
     }
 }
-// MENU DEPAGINAS PARA DESKTOP
+// MENU DE PAGINAS PARA DESKTOP
 .paginas-show{
     display: flex;
     color: $secondaryColor;
@@ -48,68 +50,8 @@
                     }
         }
 }
-/* OCULTAR NAV DE FILTROS EN DESKTOP */
-.org {
-  .orden{
-    display: none;
-  }  
-}
-  .filter{
-    display: none;
-  }
 
-/* FILTROS SIDEBAR */
-
-
-
-
-
-
-.colDesktop{
-            select{
-              background-color: $mainColor;
-              border: none;
-              border-radius: 3px;
-              font-size: 1rem;
-              color: $textColorW;
-              font-size: 1.3rem;
-              padding: 5px 15px;
-            }
-}
-.colDesktop{
-    display: list-item;
-    list-style: none;
-  }
-// INICIA CUERPO DE FILTROS POR TALLE
-#accordionTalles{
-  .accordion-body{
-    background-color: $borderColor;
-  }
-}
-// INICIA CUERPO DE FILTROS POR COLOR
-#accordionColor{
-  .accordion-body{
-    background-color: $borderColor;
-  }
-}
-// TERMINA CUERPO DE FILTROS POR COLOR
-
-.org{
-margin-bottom: 20px;
-}
-
-/* GRID DE PRODUCTOS */
-.colShow1{
-    display: list-item;
-    list-style: none;
-  }
-  .colShow2{
-    display: list-item;
-    list-style: none;
-  }
-  /* TERMINA GRID PRODUCTOS */
-
-                        // TITULOS DEL INDEX
+                               // TITULOS DEL INDEX
   
   // TITULO SECUNDARIO CAMINO INDEX
 .caminoTitle{
@@ -137,11 +79,6 @@ margin-bottom: 20px;
 .vistosTitle{
   @extend .caminoTitle;
 }
-
-
-
-
-
 
   // INICIA PUBLICIDAD CON VIDEO
 .publi-index{
@@ -184,7 +121,8 @@ margin-bottom: 20px;
         }
     }
   }
-/* SECCION DE ANUNCIO DE ENVIOS / DESCUENTOS / CUOTAS */
+
+// SECCION DE ANUNCIO CON ANIMACION
 .seccion-anuncio{
     font-size: 1.5rem;
     display: flex;
@@ -200,6 +138,68 @@ margin-bottom: 20px;
       margin-left: 30px;
       padding-top: 10px;
     }
+                                // PAGINAS GENERALES
+
+
+/* OCULTAR NAV DE FILTROS EN DESKTOP */
+.org {
+  .orden{
+    display: none;
+  }  
+}
+  .filter{
+    display: none;
+  }
+
+/* FILTROS SIDEBAR */
+// .colDesktop=SIDEBAR DE FILTROS EN LAS PAGINAS PARA DESKTOP
+.colDesktop{
+  // SELECT=DROPDOWN DE ORDENAR POR
+            select{
+              background-color: $mainColor;
+              border: none;
+              border-radius: 3px;
+              font-size: 1rem;
+              color: $textColorW;
+              font-size: 1.3rem;
+              padding: 5px 15px;
+            }
+}
+.colDesktop{
+    display: list-item;
+    list-style: none;
+  }
+// INICIA CUERPO DE FILTROS POR TALLE
+#accordionTalles{
+  .accordion-body{
+    background-color: $borderColor;
+  }
+}
+// INICIA CUERPO DE FILTROS POR COLOR
+#accordionColor{
+  .accordion-body{
+    background-color: $borderColor;
+  }
+}
+// TERMINA CUERPO DE FILTROS POR COLOR
+
+.org{
+margin-bottom: 20px;
+}
+
+// GRID DE PRODUCTOS DE PÁGINAS GENERALES
+.colShow1{
+    display: list-item;
+    list-style: none;
+  }
+  .colShow2{
+    display: list-item;
+    list-style: none;
+  }
+// TERMINA GRID DE PRODUCTOS DE PAGINAS GENERALES
+
+                    // FOOTER
+
 
   /* FOOTER PARA MOBILE OCULTO */
   .footerMobileTablet{
@@ -216,18 +216,20 @@ footer{
     font-family: $mainFont;
     width: 100%;
 
-                  div{
-                      p{
-                        font-size: 1.7rem;
-                        font-weight: bold;
-                        margin-bottom: 10px;
-                      }
-                      a{
-                          color: $textColorB;
-                          text-decoration: none;
-                          font-size: 1.2rem;
-                      }
-                  }
+      div{
+
+          p{
+            font-size: 1.7rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
+
+          a{
+              color: $textColorB;
+              text-decoration: none;
+              font-size: 1.2rem;
+          }
+      }
   }
 
 .contenedor-footer{
@@ -267,12 +269,5 @@ footer{
 
 }
 // TERMINA FOOTER PARA DESKTOP
-
-
-
-
-
-
-
 }
 // CIERRA MEDIA QUERY

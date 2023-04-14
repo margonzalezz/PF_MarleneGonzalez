@@ -427,46 +427,6 @@ main article button {
     width: 23px;
     height: 23px;
   }
-  /* OCULTAR NAV DE FILTROS EN DESKTOP */
-  .org .orden {
-    display: none;
-  }
-  .filter {
-    display: none;
-  }
-  /* FILTROS SIDEBAR */
-  .colDesktop select {
-    background-color: #c0a4fb;
-    border: none;
-    border-radius: 3px;
-    font-size: 1rem;
-    color: white;
-    font-size: 1.3rem;
-    padding: 5px 15px;
-  }
-  .colDesktop {
-    display: list-item;
-    list-style: none;
-  }
-  #accordionTalles .accordion-body {
-    background-color: #b0b0b0;
-  }
-  #accordionColor .accordion-body {
-    background-color: #b0b0b0;
-  }
-  .org {
-    margin-bottom: 20px;
-  }
-  /* GRID DE PRODUCTOS */
-  .colShow1 {
-    display: list-item;
-    list-style: none;
-  }
-  .colShow2 {
-    display: list-item;
-    list-style: none;
-  }
-  /* TERMINA GRID PRODUCTOS */
   .caminoTitle, .vistosTitle {
     padding: 30px;
   }
@@ -516,7 +476,6 @@ main article button {
     margin-left: 10px;
     align-items: center;
   }
-  /* SECCION DE ANUNCIO DE ENVIOS / DESCUENTOS / CUOTAS */
   .seccion-anuncio {
     font-size: 1.5rem;
     display: flex;
@@ -531,6 +490,44 @@ main article button {
   .contenedor-cuotas {
     margin-left: 30px;
     padding-top: 10px;
+  }
+  /* OCULTAR NAV DE FILTROS EN DESKTOP */
+  .org .orden {
+    display: none;
+  }
+  .filter {
+    display: none;
+  }
+  /* FILTROS SIDEBAR */
+  .colDesktop select {
+    background-color: #c0a4fb;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    color: white;
+    font-size: 1.3rem;
+    padding: 5px 15px;
+  }
+  .colDesktop {
+    display: list-item;
+    list-style: none;
+  }
+  #accordionTalles .accordion-body {
+    background-color: #b0b0b0;
+  }
+  #accordionColor .accordion-body {
+    background-color: #b0b0b0;
+  }
+  .org {
+    margin-bottom: 20px;
+  }
+  .colShow1 {
+    display: list-item;
+    list-style: none;
+  }
+  .colShow2 {
+    display: list-item;
+    list-style: none;
   }
   /* FOOTER PARA MOBILE OCULTO */
   .footerMobileTablet {
