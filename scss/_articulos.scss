@@ -13,3 +13,21 @@ main article{
     }
 }
  
+// PRODUCTOS PAGINAS
+.colShow2{
+    display: none;
+  }
+//   ARTÍCULOS DE PÁGINAS
+.col{
+  .articulos {
+            article{
+                    border: solid;
+                    border-color: $borderColor;
+                    border-width: 1px;
+                    border-radius: 7px;
+                    p{
+                        height: 60px;
+                    }
+        }
+  }
+}

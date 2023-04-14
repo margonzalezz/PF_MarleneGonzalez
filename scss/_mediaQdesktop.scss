@@ -67,8 +67,7 @@
   
     h2:after  {
       content: '';
-      width:60%;
-      height:2px;
+      @include sizing  (60%, 2px);
       left:20%;
       top:50%;
       background:$textColorB;

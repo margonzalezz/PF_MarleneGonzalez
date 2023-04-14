@@ -94,9 +94,8 @@ h3{
     
       h2:after  {
         content: '';
+        @include sizing (100%, 2px);
         position: absolute;
-        width:100%;
-        height:2px;
         left:0px;
         top:50%;
         background:$textColorB;
@@ -126,9 +125,8 @@ h3{
 
   h3::after  {
     content: '';
+    @include sizing (100%, 2px);
     position: absolute;
-    width:100%;
-    height:2px;
     left:0px;
     top:50%;
     background:$textColorB;
@@ -285,26 +283,5 @@ margin-bottom: 20px;
             margin-left: 15px;
         }
   }
-
-// PRODUCTOS PAGINAS
-.colShow2{
-    display: none;
-  }
-//   ARTÍCULOS DE PÁGINAS
-.col{
-  .articulos {
-            article{
-                    border: solid;
-                    border-color: $borderColor;
-                    border-width: 1px;
-                    border-radius: 7px;
-                    p{
-                        height: 60px;
-                    }
-        }
-  }
-}
-
-
 
 // TERMINA GENERAL
