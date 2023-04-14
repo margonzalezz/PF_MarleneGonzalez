@@ -1,3 +1,4 @@
+
 /* MEDIA QUERY TABLET */
 
 @media (width > 768px) {
@@ -18,29 +19,29 @@
 //   AUMENTAR TAMAÑO DE BOTONERA DE ACCIONES DE LA NAV
 .acciones{
 
-        .nav-actions{
-            align-items: center;
-            justify-content: center;
+    .nav-actions{
+        align-items: center;
+        justify-content: center;
 
-                    .fav{
-                        svg{
-                            @include sizing (23px, 23px);
-                        }
+                .fav{
+                    svg{
+                        @include sizing (23px, 23px);
                     }
+                }
 
-                    .shop{
+                .shop{
+                    svg{
+                      @include sizing (23px, 23px);
+                    }
+                }
+
+                .profile{
                         svg{
                           @include sizing (23px, 23px);
                         }
-                    }
+                }
 
-                    .profile{
-                            svg{
-                              @include sizing (23px, 23px);
-                            }
-                    }
-
-        }
+    }
 }
 
 
@@ -116,10 +117,9 @@
           }
 }
 
-
-
-  // FOOTER 
+  // FOOTER, QUEDA EL DE MOBILE
   .contenedor-footer{
     display: none;
   }
   }
+  // TERMINA MEQIA QUERY
