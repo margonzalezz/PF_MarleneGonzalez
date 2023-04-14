@@ -109,11 +109,53 @@ margin-bottom: 20px;
   }
   /* TERMINA GRID PRODUCTOS */
 
+                        // TITULOS DEL INDEX
+  
+  // TITULO SECUNDARIO CAMINO INDEX
+.caminoTitle{
+  padding: 30px;
+  h2 {
+  
+          span{
+              font-size: 2rem;
+              background:$textColorW;
+              padding:5px;
+          }
+    }
+  
+    h2:after  {
+      content: '';
+      width:60%;
+      height:2px;
+      left:20%;
+      top:50%;
+      background:$textColorB;
+      z-index:50;
+    }  
+}
+// LOS MÁS VISTOS TITULO
+.vistosTitle{
+  @extend .caminoTitle;
+}
+
+
+
+
+
+
   // INICIA PUBLICIDAD CON VIDEO
 .publi-index{
 
     .textoP{
       width: 60%;
+      margin-left: 5%;
+
+                h3{
+                  font-size: 1.8rem
+                }
+                .textVideo{
+                  font-size: 1.2rem;
+                }
     }
     .videoIndex{
       width: 40%;
@@ -205,6 +247,7 @@ footer{
 }
 
 .mail{
+  margin-right: 4%;
 
             input{
               border: none;
@@ -215,7 +258,7 @@ footer{
               justify-content: center;
 
                     button{
-                      margin-left: 10px;
+                        margin-left: 10px;
                         border: none;
                         border-radius: 7px;
                         background-color: $secondaryColor

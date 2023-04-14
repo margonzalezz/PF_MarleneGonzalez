@@ -24,22 +24,19 @@
 
                     .fav{
                         svg{
-                            width: 23px;
-                            height: 23px;
+                            @include sizing (23px, 23px);
                         }
                     }
 
                     .shop{
                         svg{
-                            width: 23px;
-                            height: 23px;
+                          @include sizing (23px, 23px);
                         }
                     }
 
                     .profile{
                             svg{
-                                width: 30px;
-                                height: 30px;
+                              @include sizing (23px, 23px);
                             }
                     }
 
@@ -86,25 +83,40 @@
 
 // TERMINA PRODUCTOS
 
+// PUBLICIDAD CON VIDEO DEL INDEX
 .publi-index{
   display: flex;
   align-items: center;
-    .society{
-      font-size: 1.3rem;
-    }
-    .textVideo{
-      font-size: 0.9rem;
-      margin: 10px 70px;
-    }
-    .videoIndex{
-      width: 100%;
-      margin-right: 10%;
 
-                iframe{
-                  width: 130%;
+          h3 {
+                span{
+                    font-size: 1.1rem;
+                    padding:2px;
                 }
-    }
+          }
+          h3::after  {
+            height:2px;
+            left:0px;
+          }  
+
+          .textoP{
+            margin-left: 2%;
+          }
+          .textVideo{
+            font-size: 1rem;
+            margin: 10px 70px;
+          }
+          .videoIndex{
+            margin-right: 12%;
+            margin-left: 15%;
+
+                      iframe{
+                        width: 130%;
+                      }
+          }
 }
+
+
 
   // FOOTER 
   .contenedor-footer{
