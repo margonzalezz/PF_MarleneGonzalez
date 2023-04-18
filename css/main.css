@@ -315,7 +315,6 @@ main article button {
   background-image: url(../img/error404/animation-error.gif);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 
 /* MEDIA QUERY TABLET */
@@ -590,6 +589,9 @@ main article button {
     border: none;
     border-radius: 7px;
     background-color: #DAFF8E;
+  }
+  .gifError {
+    height: 100vh;
   }
 }
 
