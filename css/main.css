@@ -311,6 +311,11 @@ main article button {
   height: 60px;
 }
 
+.gifError {
+  width: 100%;
+  background-image: url(../img/error404/animation-error.gif);
+}
+
 /* MEDIA QUERY TABLET */
 @media (width > 768px) {
   /* INDEX */
