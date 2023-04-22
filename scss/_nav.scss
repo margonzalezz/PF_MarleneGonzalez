@@ -52,16 +52,12 @@ nav{
 .nav-actions{
   display: flex;
 
-              a{
-
                   button{
                   display: inline-block;
                   background-color: $mainColor;
                   color: $secondaryColor;
                   border: none;
-                }                
-              }
-
+                  }                
 }
 
 // NAV DESKTOP

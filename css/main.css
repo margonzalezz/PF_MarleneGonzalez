@@ -272,7 +272,7 @@ a {
 .nav-actions {
   display: flex;
 }
-.nav-actions a button {
+.nav-actions button {
   display: inline-block;
   background-color: #c0a4fb;
   color: #DAFF8E;
@@ -289,6 +289,35 @@ a {
 .paginas-show ul li a:hover {
   background-color: #c46cb5;
   border-radius: 5px;
+}
+
+.gifError {
+  background-image: url(../img/error404/animation-error.gif);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+.gifError .text-error {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+.gifError .text-error h1 {
+  margin-top: 5%;
+}
+.gifError .text-error p {
+  padding: 9%;
+  text-align: center;
+}
+.gifError .text-error .backStart {
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #575757;
+  color: white;
 }
 
 main article {
@@ -338,35 +367,6 @@ main article button {
 }
 .slider-vistos .elemento p {
   height: 60px;
-}
-
-.gifError {
-  background-image: url(../img/error404/animation-error.gif);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  color: white;
-}
-.gifError .text-error {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  font-weight: bold;
-}
-.gifError .text-error h1 {
-  margin-top: 5%;
-}
-.gifError .text-error p {
-  padding: 9%;
-  text-align: center;
-}
-.gifError .text-error .backStart {
-  border: none;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  background-color: #575757;
-  color: white;
 }
 
 /* MEDIA QUERY TABLET */
