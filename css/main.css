@@ -415,6 +415,18 @@ main article button {
   .articulos article p {
     height: 60px;
   }
+  .slider-vistos {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
+  .slider-vistos .elemento {
+    flex: 1 0 auto;
+    width: 30%;
+  }
+  .slider-vistos .elemento p {
+    height: 60px;
+  }
   .publi-index {
     display: flex;
     align-items: center;
@@ -499,6 +511,13 @@ main article button {
     top: 50%;
     background: black;
     z-index: 50;
+  }
+  .slider-vistos {
+    display: flex;
+  }
+  .slider-vistos .elemento {
+    width: 10%;
+    margin: 0%;
   }
   .publi-index .textoP {
     width: 60%;

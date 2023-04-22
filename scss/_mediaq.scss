@@ -84,6 +84,29 @@
 
 // TERMINA PRODUCTOS
 
+// LOS MÁS VISTOS SLIDER INDEX
+.slider-vistos{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+
+      .elemento{
+        flex: 1 0 auto;
+        width: 30%;
+
+            p{
+              height: 60px;
+            }
+      }
+
+}
+
+
+
+
+
+
+
 // PUBLICIDAD CON VIDEO DEL INDEX
 .publi-index{
   display: flex;

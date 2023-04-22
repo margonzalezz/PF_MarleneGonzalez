@@ -79,6 +79,20 @@
   @extend .caminoTitle;
 }
 
+// LOS MÁS VISTOS SLIDER INDEX
+.slider-vistos{
+  display: flex;
+
+      .elemento{
+        width: 10%;
+        margin: 0%;
+      }
+
+}
+
+
+
+
   // INICIA PUBLICIDAD CON VIDEO
 .publi-index{
 
