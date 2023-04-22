@@ -193,6 +193,9 @@ nav ol li a {
   display: flex;
   flex-direction: column;
 }
+.orden ul li a {
+  color: white;
+}
 .orden button {
   font-weight: bold;
 }
