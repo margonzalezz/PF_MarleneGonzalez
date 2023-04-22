@@ -323,6 +323,20 @@ main article button {
   height: 65px;
 }
 
+.slider-vistos {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+.slider-vistos .elemento {
+  flex: 1 0 auto;
+  width: 60%;
+  margin: 5%;
+}
+.slider-vistos .elemento p {
+  height: 60px;
+}
+
 .gifError {
   background-image: url(../img/error404/animation-error.gif);
   background-size: 100% 100%;

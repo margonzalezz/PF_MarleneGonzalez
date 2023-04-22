@@ -44,3 +44,21 @@ main {
         }
   }
 }
+
+// LOS MÁS VISTOS SLIDER INDEX
+.slider-vistos{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+
+      .elemento{
+        flex: 1 0 auto;
+        width: 60%;
+        margin: 5%;
+
+            p{
+              height: 60px;
+            }
+      }
+
+}
