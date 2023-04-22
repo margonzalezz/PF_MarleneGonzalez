@@ -50,12 +50,20 @@ nav{
 
 // BOTONERA DE ACCIONES DE LA NAV MOBILE
 .nav-actions{
-              button{
-              display: inline-block;
-              background-color: $mainColor;
-              color: $secondaryColor;
-              border: none;
-            }
+
+              a{
+                display: inline-block;
+
+
+
+                  button{
+                  display: inline-block;
+                  background-color: $mainColor;
+                  color: $secondaryColor;
+                  border: none;
+                }                
+              }
+
 }
 
 // NAV DESKTOP

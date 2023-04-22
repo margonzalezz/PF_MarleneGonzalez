@@ -269,7 +269,10 @@ a {
   display: flex;
 }
 
-.nav-actions button {
+.nav-actions a {
+  display: inline-block;
+}
+.nav-actions a button {
   display: inline-block;
   background-color: #c0a4fb;
   color: #DAFF8E;
