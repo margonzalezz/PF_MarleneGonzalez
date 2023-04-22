@@ -90,9 +90,6 @@
 
 }
 
-
-
-
   // INICIA PUBLICIDAD CON VIDEO
 .publi-index{
 
@@ -193,22 +190,29 @@ main{
 // INICIA CUERPO DE FILTROS POR TALLE
 #accordionTalles{
   .accordion-body{
+    font-size: 1.5em;
     background-color: $borderColor;
   }
 }
 // INICIA CUERPO DE FILTROS POR COLOR
 #accordionColor{
   .accordion-body{
+    font-size: 1.5em;
     background-color: $borderColor;
   }
 }
 // TERMINA CUERPO DE FILTROS POR COLOR
 
 .org{
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 // GRID DE PRODUCTOS DE PÁGINAS GENERALES
+.container-content{
+  margin-left: 5%;
+}
+
+
 .colShow1{
     display: list-item;
     list-style: none;
@@ -217,6 +221,30 @@ margin-bottom: 20px;
     display: list-item;
     list-style: none;
   }
+
+// SIDEBAR DE BOTONES APLICAR Y LIMPIAR FILTROS
+.botonesFiltrosSidebar{
+  display: flex;
+  justify-content: center;
+  
+        a{
+          margin: 10px 5px;
+
+             button{
+                background-color: $mainColor;
+                color: $textColorW;
+                border: none;
+                border-radius: 5px;
+                padding: 10px;
+            }         
+        }
+
+
+}
+
+
+
+
 // TERMINA GRID DE PRODUCTOS DE PAGINAS GENERALES
 
                     // FOOTER

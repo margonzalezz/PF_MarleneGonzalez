@@ -594,13 +594,18 @@ main article button {
     list-style: none;
   }
   #accordionTalles .accordion-body {
+    font-size: 1.5em;
     background-color: #b0b0b0;
   }
   #accordionColor .accordion-body {
+    font-size: 1.5em;
     background-color: #b0b0b0;
   }
   .org {
     margin-bottom: 20px;
+  }
+  .container-content {
+    margin-left: 5%;
   }
   .colShow1 {
     display: list-item;
@@ -609,6 +614,20 @@ main article button {
   .colShow2 {
     display: list-item;
     list-style: none;
+  }
+  .botonesFiltrosSidebar {
+    display: flex;
+    justify-content: center;
+  }
+  .botonesFiltrosSidebar a {
+    margin: 10px 5px;
+  }
+  .botonesFiltrosSidebar a button {
+    background-color: #c0a4fb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
   }
   /* FOOTER PARA MOBILE OCULTO */
   .footerMobileTablet {
