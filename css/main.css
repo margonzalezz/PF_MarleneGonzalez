@@ -290,6 +290,15 @@ main article {
   justify-content: center;
   text-align: center;
 }
+main article .img-thumbnail {
+  padding: 0%;
+}
+main article p {
+  height: 40px;
+}
+main article a {
+  justify-content: center;
+}
 main article button {
   background-color: #575757;
   border: none;
@@ -308,7 +317,7 @@ main article button {
   border-radius: 7px;
 }
 .col .articulos article p {
-  height: 60px;
+  height: 65px;
 }
 
 .gifError {
@@ -505,6 +514,9 @@ main article button {
     height: 380px;
     margin-left: 10px;
     align-items: center;
+  }
+  main article p {
+    height: 65px;
   }
   .seccion-anuncio {
     font-size: 1.5rem;

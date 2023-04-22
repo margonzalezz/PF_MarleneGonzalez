@@ -1,17 +1,30 @@
 // ARTÍCULOS DEL INDEX
-main article{
-    padding: 10px;
-    justify-content: center;
-    text-align: center;
+main {
+  
+      article{
+          padding: 10px;
+          justify-content: center;
+          text-align: center;
 
-    button{
-        background-color: $buttonArtColor;
-        border: none;
-        border-radius: 5px;
-        padding: 5px 15px;
-
-    }
+            .img-thumbnail{
+              padding: 0%;
+            }
+            p{
+              height: 40px;
+            }
+        
+            a{
+              justify-content: center;
+            }
+            button{
+                background-color: $buttonArtColor;
+                border: none;
+                border-radius: 5px;
+                padding: 5px 15px;
+            }
+      }  
 }
+
  
 // PRODUCTOS PAGINAS
 .colShow2{
@@ -26,7 +39,7 @@ main article{
                     border-width: 1px;
                     border-radius: 7px;
                     p{
-                        height: 60px;
+                        height: 65px;
                     }
         }
   }
