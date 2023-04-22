@@ -1,6 +1,6 @@
 .gifError{
     background-image: url(../img/error404/animation-error.gif);
-    background-size: 100% 100%;
+    background-size: 100% 105%;
     background-repeat: no-repeat;
     color:$textColorW;
 
@@ -15,7 +15,7 @@
                         margin-top: 5%;
                     }
                     p{
-                        padding: 9%;
+                        padding: 0% 10%;
                         text-align: center;
                     }
                     .backStart{
@@ -23,8 +23,8 @@
                         border-radius: 5px;
                         margin-top: 10px;
                         margin-bottom: 20px;
-                        background-color: $buttonArtColor;
-                        color: $textColorW;
+                        background-color: $secondaryColor;
+                        color: $textColorB;
                     }
         }
 }

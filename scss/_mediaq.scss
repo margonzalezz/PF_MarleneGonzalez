@@ -101,12 +101,6 @@
 
 }
 
-
-
-
-
-
-
 // PUBLICIDAD CON VIDEO DEL INDEX
 .publi-index{
   display: flex;
@@ -144,5 +138,35 @@
   .contenedor-footer{
     display: none;
   }
+
+
+// PAGINA DE ERROR 404
+.gifError{
+  height:100vh;
+
+      .text-error{
+
+              h1{
+                margin: 10%;
+              }         
+
+              p{
+                font-size: 1.3em;
+              }
+              .backStart{
+                margin-top: 100%;
+              }
+      }
+}
+
+
+
+
+
+
+
+
+
+
   }
   // TERMINA MEQIA QUERY

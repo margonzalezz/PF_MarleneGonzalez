@@ -293,7 +293,7 @@ a {
 
 .gifError {
   background-image: url(../img/error404/animation-error.gif);
-  background-size: 100% 100%;
+  background-size: 100% 105%;
   background-repeat: no-repeat;
   color: white;
 }
@@ -308,7 +308,7 @@ a {
   margin-top: 5%;
 }
 .gifError .text-error p {
-  padding: 9%;
+  padding: 0% 10%;
   text-align: center;
 }
 .gifError .text-error .backStart {
@@ -316,8 +316,8 @@ a {
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 20px;
-  background-color: #575757;
-  color: white;
+  background-color: #DAFF8E;
+  color: black;
 }
 
 main article {
@@ -458,6 +458,18 @@ main article button {
   }
   .contenedor-footer {
     display: none;
+  }
+  .gifError {
+    height: 100vh;
+  }
+  .gifError .text-error h1 {
+    margin: 10%;
+  }
+  .gifError .text-error p {
+    font-size: 1.3em;
+  }
+  .gifError .text-error .backStart {
+    margin-top: 100%;
   }
 }
 /* MEDIA DESKTOP */
@@ -685,6 +697,17 @@ main article button {
   }
   .gifError {
     height: 120vh;
+  }
+  .gifError .text-error h1 {
+    margin-top: 10%;
+  }
+  .gifError .text-error p {
+    font-size: 1.5em;
+    padding: 0% 25%;
+  }
+  .gifError .text-error a button {
+    font-size: 1.5em;
+    padding: 2px 10px;
   }
 }
 
