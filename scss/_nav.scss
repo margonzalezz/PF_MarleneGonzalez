@@ -50,11 +50,9 @@ nav{
 
 // BOTONERA DE ACCIONES DE LA NAV MOBILE
 .nav-actions{
+  display: flex;
 
               a{
-                display: inline-block;
-
-
 
                   button{
                   display: inline-block;
