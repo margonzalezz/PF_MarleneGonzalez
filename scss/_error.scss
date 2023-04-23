@@ -1,6 +1,7 @@
 .gifError{
     background-image: url(../img/error404/animation-error.gif);
     background-size: 100% 105%;
+    object-fit: cover;
     background-repeat: no-repeat;
     color:$textColorW;
 
