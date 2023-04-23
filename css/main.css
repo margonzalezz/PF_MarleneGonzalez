@@ -127,6 +127,11 @@ h3 {
   border-radius: 10px;
 }
 
+.butMail {
+  display: flex;
+  justify-content: center;
+}
+
 .accordion-flush, a {
   text-align: center;
 }
@@ -219,6 +224,10 @@ nav ol li a {
 }
 
 /* APLICAR / LIMPIAR FILTROS */
+.botonesFiltros {
+  display: flex;
+  justify-content: center;
+}
 .botonesFiltros button {
   background: #c0a4fb;
   background: linear-gradient(180deg, #8c63e2 35%, #7c67aa 100%);
@@ -240,6 +249,9 @@ nav {
 
 .offcanvas-header, .cuenta, a, .btn-close {
   align-items: center;
+}
+.offcanvas-header .offcanvas-title, .cuenta .offcanvas-title, a .offcanvas-title, .btn-close .offcanvas-title {
+  font-size: 2em;
 }
 
 .btn-close {

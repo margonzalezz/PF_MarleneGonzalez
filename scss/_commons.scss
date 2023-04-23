@@ -160,6 +160,11 @@ h3{
         }
 }
 
+.butMail{
+    display: flex;
+    justify-content:center;
+}
+
 // OPCIONES DE FOOTER MOBILE
 .accordion-flush{
     text-align: center;
@@ -279,7 +284,9 @@ margin-bottom: 20px;
   }
 
   /* APLICAR / LIMPIAR FILTROS */
-  .botonesFiltros {
+  .botonesFiltros{
+    display: flex;
+    justify-content: center;
 
         button{
             background: $mainColor;
