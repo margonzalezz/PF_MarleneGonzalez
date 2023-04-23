@@ -393,16 +393,16 @@ main article button {
     justify-content: center;
   }
   .acciones .nav-actions .fav svg {
-    width: 23px;
-    height: 23px;
+    width: 30px;
+    height: 30px;
   }
   .acciones .nav-actions .shop svg {
-    width: 23px;
-    height: 23px;
+    width: 30px;
+    height: 30px;
   }
   .acciones .nav-actions .profile svg {
-    width: 23px;
-    height: 23px;
+    width: 38px;
+    height: 38px;
   }
   /* PRODUCTOS INDEX */
   .row .productos {
@@ -510,16 +510,16 @@ main article button {
     justify-content: center;
   }
   .acciones .nav-actions .fav svg {
-    width: 23px;
-    height: 23px;
+    width: 30px;
+    height: 30px;
   }
   .acciones .nav-actions .shop svg {
-    width: 23px;
-    height: 23px;
+    width: 30px;
+    height: 30px;
   }
   .acciones .nav-actions .profile svg {
-    width: 23px;
-    height: 23px;
+    width: 37px;
+    height: 38px;
   }
   .caminoTitle, .vistosTitle {
     padding: 30px;

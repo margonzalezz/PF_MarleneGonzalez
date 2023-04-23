@@ -35,17 +35,17 @@
 
                     .fav{
                         svg{
-                            @include sizing (23px, 23px)
+                            @include sizing (30px, 30px)
                         }
                     }
                     .shop{
                         svg{
-                            @include sizing (23px, 23px)
+                            @include sizing (30px, 30px)
                         }
                     }
                     .profile{
                         svg{
-                            @include sizing (23px, 23px)
+                            @include sizing (37px, 38px)
                         }
                     }
         }
