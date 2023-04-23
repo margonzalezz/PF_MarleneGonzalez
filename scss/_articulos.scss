@@ -62,3 +62,16 @@ main {
       }
 
 }
+.row{
+
+  .col{
+    padding-right: 0%;
+  }
+}
+.container-content{
+
+  .row{
+    width: 100%;
+    justify-content: center;
+  }
+}

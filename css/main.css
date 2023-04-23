@@ -11,8 +11,8 @@
 .seccion-anuncio {
   background-color: black;
   width: 100%;
-  overflow-x: hidden;
   font-size: 0.8rem;
+  overflow-x: hidden;
 }
 .seccion-anuncio a {
   text-decoration: none;
@@ -23,7 +23,6 @@
   background-color: black;
   width: 100%;
   position: relative;
-  display: flex;
   align-items: center;
   margin-left: 10px;
   animation: animation 11s linear infinite;
@@ -31,7 +30,6 @@
 .contenedor-envios a, .contenedor-cuotas a, .contenedor-descuentos a {
   display: flex;
   align-items: center;
-  overflow: hidden;
 }
 .contenedor-envios a svg, .contenedor-cuotas a svg, .contenedor-descuentos a svg {
   margin-top: 1px;
@@ -367,6 +365,15 @@ main article button {
 }
 .slider-vistos .elemento p {
   height: 60px;
+}
+
+.row .col {
+  padding-right: 0%;
+}
+
+.container-content .row {
+  width: 100%;
+  justify-content: center;
 }
 
 /* MEDIA QUERY TABLET */
