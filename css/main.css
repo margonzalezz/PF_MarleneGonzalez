@@ -270,6 +270,9 @@ a {
   margin-left: 20px;
 }
 
+.op-cuenta ul {
+  padding-left: 4%;
+}
 .op-cuenta ul li {
   list-style: none;
 }
@@ -278,8 +281,13 @@ a {
   color: white;
 }
 
+.container-redesCanvas p {
+  padding-left: 4%;
+}
+
 .redesCanv {
   display: flex;
+  padding-left: 2%;
 }
 
 .nav-actions {

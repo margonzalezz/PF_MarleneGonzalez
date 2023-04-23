@@ -35,6 +35,7 @@ nav{
 
 .op-cuenta{
             ul{
+              padding-left: 4%;
 
               li{
                 list-style: none;
@@ -47,8 +48,15 @@ nav{
             }
 }
 
+.container-redesCanvas{
+
+    p{
+      padding-left: 4%;
+    }
+}
 .redesCanv{
   display: flex;
+  padding-left: 2%;
 }
 
 
