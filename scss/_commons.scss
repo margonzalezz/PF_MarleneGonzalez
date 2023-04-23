@@ -203,9 +203,13 @@ h3{
     }
 }
 
-.redesFooter{
+.botonesEnd{
+    background-color: $mainColor;
+    display: flex;  
     justify-content: center;
-    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
 }
 
                             // SECCION DE PAGINAS

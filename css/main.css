@@ -165,9 +165,12 @@ a {
   padding-bottom: 15px;
 }
 
-.redesFooter {
-  justify-content: center;
+.botonesEnd {
+  background-color: #c0a4fb;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .breadcrumb-container {
