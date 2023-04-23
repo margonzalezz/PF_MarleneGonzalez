@@ -371,6 +371,10 @@ main article button {
   padding-right: 0%;
 }
 
+.container-content {
+  justify-content: center;
+  margin-left: 4%;
+}
 .container-content .row {
   width: 100%;
   justify-content: center;
