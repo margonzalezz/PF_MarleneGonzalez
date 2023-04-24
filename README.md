@@ -12,8 +12,7 @@ Creo que esto también fue lo que me inspiró a hacer un e-commerce.
 Al principio no creía que mi página iba a quedar como las que estaba acostumbrada a ver, yo empecé la carrera de Desarrollo Full Stack con
 la idea de poder crear todo tipos de sitios pero creo que en mi inicio, ni yo sabía de lo que podía llegar a hacer.
 
-Siempre me gustó mucho la informática, hace 2 años empecé una Licenciatura en Programación que tuve que dejar por cuestiones de tiempo,
-por lo que me alegra poder llevar a cabo esta carrera este año.
+Siempre me gustó mucho la informática, hace 2 años empecé una Licenciatura en Programación. Hice sólo un cuatrimestre y tuve que dejar por cuestiones de tiempo, por lo que me alegra poder llevar a cabo esta carrera este año.
 
 Mi idea es sumar cada vez más conocimientos como ciberseguridad, community manager, UX/UI, entre otras.
 
@@ -90,15 +89,12 @@ una página de ERROR 404 animada mediante un Gif, creado con Paint 3D.
 ### Links
 
 Dejo el link del deployment de GitHub Pages:
-
 https://margonzalezz.github.io/PF_MarleneGonzalez/
 
 Deployment de Vercel: 
-
 https://marshoes-marlenegonzalez-k469fsuis-margonzalezz.vercel.app/
 
 Mi dominio en Vercel:
-
 https://marshoes-marlenegonzalez.vercel.app/
 
 Muchas gracias por llegar hasta acá :)
