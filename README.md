@@ -15,7 +15,7 @@ la idea de poder crear todo tipos de sitios pero creo que en mi inicio, ni yo sa
 Siempre me gustó mucho la informática, hace 2 años empecé una Licenciatura en Programación que tuve que dejar por cuestiones de tiempo,
 por lo que me alegra poder llevar a cabo esta carrera este año.
 
-Mi idea es sumar cada vez más lenguajes y aprender otras cosas como ciberseguridad, community manager, UX/UI, entre otras.
+Mi idea es sumar cada vez más conocimientos como ciberseguridad, community manager, UX/UI, entre otras.
 
 
 
@@ -35,6 +35,8 @@ Así quedó ahora. También añadí un carousel.
 ![image](https://github.com/margonzalezz/PF_MarleneGonzalez/blob/master/img-readme/nav-header-desktop.jpg)
 
 Para mobile cambié el orden de los contenedores y agregué un menú desplegable con OFFCANVAS, mediante el framework de ![image](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+![image](https://github.com/margonzalezz/PF_MarleneGonzalez/blob/master/img-readme/navbar-mobile.jpg)
 
 
 El contenido con los artículos:
@@ -72,9 +74,15 @@ Este sitio fue creado con lenguajes como:
 
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### Frameworks:
+
 ![image](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![image](	https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![image](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+### Sistema de control de versiones:
+
 ![image](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white)
 ![image](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
