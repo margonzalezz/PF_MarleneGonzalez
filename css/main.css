@@ -564,6 +564,7 @@ main article button {
   }
   .slider-vistos {
     display: flex;
+    overflow: hidden;
   }
   .slider-vistos .elemento {
     width: 10%;

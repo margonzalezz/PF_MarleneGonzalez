@@ -82,6 +82,7 @@
 // LOS MÁS VISTOS SLIDER INDEX
 .slider-vistos{
   display: flex;
+  overflow: hidden;
 
       .elemento{
         width: 10%;
@@ -241,9 +242,6 @@ main{
 
 
 }
-
-
-
 
 // TERMINA GRID DE PRODUCTOS DE PAGINAS GENERALES
 
