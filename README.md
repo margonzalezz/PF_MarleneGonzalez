@@ -87,11 +87,19 @@ una página de ERROR 404 animada mediante un Gif, creado con Paint 3D.
 ![image](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
 
-### GitHub Pages
+### Links
 
-Dejo el link del deployment de mi sitio:
+Dejo el link del deployment de GitHub Pages:
 
 https://margonzalezz.github.io/PF_MarleneGonzalez/
+
+Deployment de Vercel: 
+
+https://marshoes-marlenegonzalez-k469fsuis-margonzalezz.vercel.app/
+
+Mi dominio en Vercel:
+
+https://marshoes-marlenegonzalez.vercel.app/
 
 Muchas gracias por llegar hasta acá :)
 
